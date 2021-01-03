@@ -72,35 +72,3 @@ h1 {
 .logotyp {
 	padding-left: 0.13%;
 }
-
-.theme-button {
-	position: relative;
-	margin-top: 20px;
-	padding-top: 7px;
-	padding-right: 6.22%;
-	padding-bottom: 7px;
-	padding-left: 6.22%;
-	font-size: 12px;
-	border-radius: 2px;
-	background-color: transparent;
-	cursor: pointer;
-	color: #FFFF00FF;
-	border: 1px solid #FFFF00FF;
-}
-
-.theme-button:focus,
-.theme-button:hover {
-	color: #ffffff;
-	background-color: transparent;
-}
-
-.dark-theme {
-	color: #f2f2f2;
-	background-color: #17161a;
-}
-
-.dark-theme .theme-button:focus,
-.dark-theme .theme-button:hover {
-	color: #;
-	background-color: #9484f2;
-}
