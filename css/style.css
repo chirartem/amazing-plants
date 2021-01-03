@@ -1,0 +1,106 @@
+body {
+	color: white;
+	background-attachment: fixed;
+	background-image: url(../images/luxfon335.jpg); 
+	background-size: 100%;
+	font-family: sans-serif, arial, helvetica;
+}
+
+p {
+	font-size: 24px;
+	text-align: justify;
+}
+
+li {
+	font-size: 13pt;
+}
+
+a {
+	color: #F7FF20;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+}
+
+h2 {
+	padding-right: 100%;
+}
+
+hr {
+	border: none;
+	color: #404040;
+	background-color: #404040;
+	height: 1px;
+}
+
+span {
+	color: #1BEA14FF;
+}
+
+h1 {
+	text-align: center;
+}
+
+.layout {
+	background: linear-gradient(#4b4a45, #4b4a45 210px);
+}
+
+.logo {
+	width: 18%;
+}
+
+.border {
+	border-right: solid;
+	border-right-color: green;
+	border-bottom: solid;
+	border-bottom-color: green;
+	border-top: solid;
+	border-top-color: green;
+	height: 100%;
+	width: 18%;
+	border-bottom-width: 0,8%;
+	border-top-width: 0,8%;
+	border-right-width: 0,8%;
+}
+
+.main {
+	text-align: center;
+}
+
+.logotyp {
+	padding-left: 0.13%;
+}
+
+.theme-button {
+	position: relative;
+	margin-top: 20px;
+	padding-top: 7px;
+	padding-right: 6.22%;
+	padding-bottom: 7px;
+	padding-left: 6.22%;
+	font-size: 12px;
+	border-radius: 2px;
+	background-color: transparent;
+	cursor: pointer;
+	color: #FFFF00FF;
+	border: 1px solid #FFFF00FF;
+}
+
+.theme-button:focus,
+.theme-button:hover {
+	color: #ffffff;
+	background-color: transparent;
+}
+
+.dark-theme {
+	color: #f2f2f2;
+	background-color: #17161a;
+}
+
+.dark-theme .theme-button:focus,
+.dark-theme .theme-button:hover {
+	color: #;
+	background-color: #9484f2;
+}
