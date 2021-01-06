@@ -37,7 +37,7 @@ if ($conn->connect_error) {
 		<ul>
 
 <?php
-$sql = "SELECT name from plants order by sort";
+$sql = "SELECT name from plants where visible=1 order by sort";
 $result = $conn->query($sql);
 
 while($row = $result->fetch_assoc()) {
@@ -49,7 +49,7 @@ while($row = $result->fetch_assoc()) {
 		<ul>
 
 <?php
-$sql = "SELECT name from trees order by sort";
+$sql = "SELECT name from trees where visible=1 order by sort";
 $result = $conn->query($sql);
 
 while($row = $result->fetch_assoc()) {
