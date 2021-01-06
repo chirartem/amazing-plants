@@ -1,6 +1,6 @@
 <?php
 $servername = "192.168.1.209";
-$username = "root";
+$username = "site";
 $password = "Sql_760165";
 $dbname = "amazing_plants";
 
