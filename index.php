@@ -16,9 +16,6 @@ if ($conn->connect_error) {
 	die("Connection failed now: " . $conn->connect_error);
 }
 
-$sql = "SELECT name from plants";
-$result = $conn->query($sql);
-
 ?>
 <!DOCTYPE html> <!-- Эта версия будет разрабатываться с PHP!!! -->
 <html lang="ru">
@@ -40,34 +37,26 @@ $result = $conn->query($sql);
 		<ul>
 
 <?php
+$sql = "SELECT name from plants order by sort";
+$result = $conn->query($sql);
+
+while($row = $result->fetch_assoc()) {
+	echo "<li><a href=\"\">".$row["name"]."</a></li>";
+} 
+?>
+		</ul>
+		<h2>Деревья:</h2>
+		<ul>
+
+<?php
+$sql = "SELECT name from trees order by sort";
+$result = $conn->query($sql);
+
 while($row = $result->fetch_assoc()) {
 	echo "<li><a href=\"\">".$row["name"]."</a></li>";
 } 
 ?>
 
-			<li><a href="">Самые большие</a></li>
-			<li><a href="">Самые маленькие</a></li>
-			<li><a href="">Самые долгоживущие</a></li>
-			<li><a href="">Самые светлолюбивые</a></li>
-			<li><a href="">Самые тёмнолюбивые</a></li>
-			<li><a href="">Самые заcухоустойчивые</a></li>
-			<li><a href="">Самые влагоустойчивые</a></li>
-			<li><a href="">Самые пушистые</a></li>
-			<li><a href="">Самые распространённые</a></li>
-			<li><a href="">Самые простые</a></li>
-			<li><a href="">Самые сложноустроенные</a></li>
-			<li><a href="">Самые быстрорастущие</a></li>
-			<li><a href="">Без корней</a></li>
-			<li><a href="">Насекомоядные</a></li>
-		</ul>
-		<h2>Деревья:</h2>
-		<ul>
-			<li><a href="">Самые твёрдые</a></li>
-			<li><a href="">Самые мягкие</a></li>
-			<li><a href="">Самые большие</a></li>
-			<li><a href="">Самые маленькие</a></li>
-			<li><a href="">Самые распространённые</a></li>
-			<li><a href="">Самые высокие</a></li>
 		</ul>
 	</div>
 	<br />
