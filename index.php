@@ -11,7 +11,7 @@ if ($conn->connect_error) {
 	die("Connection failed now: " . $conn->connect_error);
 }
 
-$sql = "SELECT name";
+$sql = "SELECT name from plants";
 $result = $conn->query($sql);
 
 ?>
@@ -33,6 +33,13 @@ $result = $conn->query($sql);
 	<div class="border">
 		<h2>Растения:</h2>
 		<ul>
+
+<?php
+while($row = $result->fetch_assoc()) {
+	echo "<li><a href=\"\">".$row["name"]."</a></li>";
+} 
+?>
+
 			<li><a href="">Самые большие</a></li>
 			<li><a href="">Самые маленькие</a></li>
 			<li><a href="">Самые долгоживущие</a></li>
