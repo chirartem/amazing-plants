@@ -1,7 +1,6 @@
 body {
 	color: white;
 	background-attachment: fixed;
-	background-color: white;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	font-family: sans-serif, arial, helvetica;
@@ -17,12 +16,12 @@ li {
 }
 
 a {
-	color: #F7FF20;
+	color: red;
 	text-decoration: none;
 }
 
 a:hover {
-	color: white;
+	color: black;
 }
 
 hr {
