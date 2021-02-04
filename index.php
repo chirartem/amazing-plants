@@ -26,13 +26,13 @@ if ($conn->connect_error) {
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
 </head>
 <body>
-	<p class="logotyp">
+	<!-- <div class="logotyp">
 		<a href="index.html">
 			<img src="images/logo.png" alt="" class="logo" />
 			<br />
 			<span>Amazing <sub>plants</sub></span>
 		</a>
-	</p>
+	</div> -->
 	<div class="menu">
 		<h2>Растения:</h2>
 		<ul>
@@ -60,5 +60,6 @@ if ($conn->connect_error) {
 
 		</ul>
 	</div>
+	<div class="content"></div>
 </body>
 </html>

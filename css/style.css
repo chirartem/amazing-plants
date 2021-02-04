@@ -1,7 +1,7 @@
 body {
 	color: white;
 	background-attachment: fixed;
-	background-image: url(../images/luxfon335.jpg);
+	background-color: white;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	font-family: sans-serif, arial, helvetica;
@@ -25,10 +25,6 @@ a:hover {
 	color: white;
 }
 
-h2 {
-	padding-right: 100%;
-}
-
 hr {
 	border: none;
 	color: #404040;
@@ -44,6 +40,10 @@ h1 {
 	text-align: center;
 }
 
+.content {
+	flex-grow: 2;
+}
+
 .layout {
 	background: linear-gradient(#4b4a45, #4b4a45 210px);
 }
@@ -52,18 +52,12 @@ h1 {
 	width: 18%;
 }
 
-.border {
-	border-right: solid;
-	border-right-color: green;
-	border-bottom: solid;
-	border-bottom-color: green;
-	border-top: solid;
-	border-top-color: green;
+.menu {
+	border: 2px solid green;
+	border-right: 2px solid green;
+	border-bottom: 2px solid green;
 	height: 100%;
 	width: 18%;
-	border-bottom-width: 0,8%;
-	border-top-width: 0,8%;
-	border-right-width: 0,8%;
 }
 
 .main {
