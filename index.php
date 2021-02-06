@@ -24,7 +24,7 @@ if ($conn->connect_error) {
 	<title>Интересные растения</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
 	<link rel="stylesheet" type="text/css" href="style/style.css" />
-		<script src="Script/script.js"></script>
+	<script src="script/script.js"></script>
 </head>
 <body>
 	<!-- <div class="logotyp">
@@ -67,15 +67,15 @@ if ($conn->connect_error) {
 				<div class="content">
 					<h1>Контакты:</h1>
 					<div class="contact-list">
-						<div class="contactspt"><div class="img-align"><img src="images/github.svg" alt=""></div></div>
-						<div class="contactspt"><div class="img-align"><img src="" alt=""></div></div>
-						<div class="contactspt"><div class="img-align"><img src="" alt=""></div></div>
+						<div class="contactspt"><div class="img-align"><a href="https://github.com/chirartem/amazing-plants"><img src="images/github.svg" alt="" class="contacts-img" /></a></div></div>
+						<div class="contactspt"><div class="img-align"><a href="mailto:chirartem@gmail.com"><img src="images/gmail.svg" alt="" class="contacts-img" /></a></div></div>
+						<div class="contactspt"><div class="img-align"><a href=""><img src="images/instagram.svg" alt="" class="contacts-img" /></a></div></div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<!----------------------------------------------------------------------------------------------------------------------------------------->
-		<a href="" class="back-to-top"><img src="images/up-the-page.svg" alt="Наверх" /></a>
+		<a href="" class="back-to-top"><img src="images/up-the-page.svg" alt="" /></a>
 	</div>
 </body>
 </html>

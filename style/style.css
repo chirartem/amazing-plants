@@ -62,7 +62,14 @@ li {
 	width: 18%;
 }
 
+.img-align {
+	text-align: center;
+}
 
+.contacts-img {
+	width: 25px;
+	height: 25px;
+}
 
 .menu {
 	margin-left: 1px;
