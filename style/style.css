@@ -27,7 +27,7 @@ a {
 }
 
 a:hover {
-	color: #FFF;
+	text-decoration: underline;
 }
 
 hr {
@@ -52,6 +52,10 @@ h2 {
 
 li {
 	font-size: 9pt;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #FFF;
+	padding: 0;
+	margin: 0;
 }
 
 .menu-h2 {
