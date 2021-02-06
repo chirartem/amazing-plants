@@ -64,9 +64,17 @@ if ($conn->connect_error) {
 		<div class="white_background_div">
 			<div class="content">
 				<h1>Контакты:</h1>
-				<div class="contact-list"><img src="" alt="" /></div>
+				<div class="contact-list">
+					<div class="contactspt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores.</div>
+					<div class="contactspt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit.</div>
+					<div class="contactspt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur.</div>
+					<div class="contactspt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse!</div>
+					<div class="contactspt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis.</div>
+					<div class="contactspt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam.</div>
+				</div>
 			</div>
 		</div>
+		<!-- ------------------------------------------------------------------------------------------------------------------------------------- -->
 		<a href="" class="back-to-top"><img src="Images/solid.svg" alt="" /></a>
 		<script src="Script/script.js"></script>
 	</div>

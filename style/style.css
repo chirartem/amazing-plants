@@ -92,11 +92,23 @@ li {
 	display: flex;
 }
 
+.contact-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contactspt {
+	 flex-grow: 1;
+	  flex-basis: 200px;
+	  border: 1px solid #000;
+}
+
+/*
 .logotyp {
 	padding-left: 0.13%;
 }
 
-/*<button-to-top>*/
+----<button-to-top>----*/
 .back-to-top {
 	position: fixed;
 	right: 20px;
@@ -108,4 +120,4 @@ li {
 	filter: brightness(1.5);
 	outline: none;
 }
-/*</button-to-top>*/
+/*----</button-to-top>----*/
