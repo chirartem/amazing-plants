@@ -55,6 +55,8 @@ li {
 	font-size: 9pt;
 	padding-bottom: 5px;
 	border-bottom: 1px solid #FFF;
+	padding: 0;
+	margin: 0;
 }
 
 .menu-h2 {
@@ -79,7 +81,7 @@ li {
 	margin-left: 1px;
 	margin-top: 3px;
 	border: 2px solid green;
-	max-height: 670px;
+	height: 630px;
 	max-width: 150px;
 	position: fixed;
 	flex-wrap: wrap;
