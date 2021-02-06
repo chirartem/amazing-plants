@@ -59,8 +59,6 @@ li {
 
 .content {
 	margin-left: 160px;
-	background-color: white;
-	height: 100%;
 }
 
 .menu-h2 {
@@ -83,7 +81,14 @@ li {
 
 .main {
 	text-align: ;
+}
 
+.white_background_div {
+	padding-top: 5px;
+	background: white;
+	margin-left: 25%;
+	width: 50%;
+	border-radius: 6px;
 }
 
 .display-flex {
