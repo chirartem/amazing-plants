@@ -65,36 +65,6 @@ li {
 	width: 18%;
 }
 
-.menu-ul {
-	list-style: none;
-	padding: 0;
-}
-
-.menu-ul li {
-	font-family: Trebuchet MS, Lucida Sans;
-	padding: 7px 20px;
-	margin-bottom: 10px;
-	border-radius: 5px;
-	border-left: 10px solid #f05d22; 
-	box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1),
-	-2px -2px 5px 0 rgba(0,0,0,.1),
-	2px 2px 5px 0 rgba(0,0,0,.1),
-	-2px 2px 5px 0 rgba(0,0,0,.1);
-	font-size: 20px;
-	letter-spacing: 2px;
-	transition: 0.3s all linear;
-}
-.menu-ul li:nth-child(2){border-color: #8bc63e;}
-.menu-ul li:nth-child(3){border-color: #fcba30;}
-.menu-ul li:nth-child(4){border-color: #1ccfc9;}
-.menu-ul li:nth-child(5){border-color: #493224;}
-.menu-ul li:hover {border-left: 10px solid transparent;}
-.menu-ul li:nth-child(1):hover {border-right: 2px solid #f05d22;}
-.menu-ul li:nth-child(2):hover {border-right: 2px solid #8bc63e;}
-.menu-ul li:nth-child(3):hover {border-right: 2px solid #fcba30;}
-.menu-ul li:nth-child(4):hover {border-right: 2px solid #1ccfc9;}
-.menu-ul li:nth-child(5):hover {border-right: 2px solid #493224;}
-
 .menu {
 	margin-left: 1px;
 	margin-top: 3px;

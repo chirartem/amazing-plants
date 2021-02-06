@@ -36,7 +36,7 @@ if ($conn->connect_error) {
 	<div class="display-flex">
 		<div class="menu">
 			<h2 class="menu-h2">Растения:</h2>
-			<ul class="menu-ul">
+			<ul>
 
 				<?php
 				$sql = "SELECT name from plants where visible=1 order by sort";
@@ -48,7 +48,7 @@ if ($conn->connect_error) {
 				?>
 			</ul>
 			<h2 class="menu-h2">Деревья:</h2>
-			<ul class="menu-ul">
+			<ul>
 
 				<?php
 				$sql = "SELECT name from trees where visible=1 order by sort";
@@ -74,7 +74,7 @@ if ($conn->connect_error) {
 			</div>
 		</div>
 		<!----------------------------------------------------------------------------------------------------------------------------------------->
-		<a href="" class="back-to-top"><img src="Images/solid.svg" alt="" /></a>
+		<a href="" class="back-to-top"><img src="images/" alt="" /></a>
 		<script src="Script/script.js"></script>
 	</div>
 </body>
