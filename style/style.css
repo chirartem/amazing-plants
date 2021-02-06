@@ -4,7 +4,7 @@ body {
 	background-repeat: no-repeat;
 	/* background-color: #F8F9FBFF; */
 	background-image: url(../images/luxfon335.jpg);
-	font-family: sans-serif, arial, helvetica;
+	background-size: 100vh;
 }
 
 p {
@@ -13,7 +13,7 @@ p {
 }
 
 * {
-	font-family: roboto, sans-serif,
+	font-family: roboto, sans-serif, arial, helvetica,
 }
 
 li {
