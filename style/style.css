@@ -57,10 +57,6 @@ li {
 	font-size: 9pt;
 }
 
-.content {
-	margin-left: 160px;
-}
-
 .menu-h2 {
 	font-size: 15pt;
 }
@@ -79,16 +75,15 @@ li {
 	flex-wrap: wrap;
 }
 
-.main {
-	text-align: ;
-}
-
 .white_background_div {
 	padding-top: 5px;
-	background: white;
-	margin-left: 25%;
+	background: #F8F9FBFF;
 	width: 50%;
 	border-radius: 6px;
+}
+
+.content {
+	margin-left: 160px;
 }
 
 .display-flex {
