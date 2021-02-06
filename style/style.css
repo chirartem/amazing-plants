@@ -73,7 +73,6 @@ li {
 	max-width: 150px;
 	position: fixed;
 	flex-wrap: wrap;
-	float: left;
 }
 
 .white_background_div {
@@ -81,8 +80,7 @@ li {
 }
 
 .content {
-	margin-left: 160px;
-	overflow: hidden;
+	padding-left: 160px;
 }
 
 .display-flex {
