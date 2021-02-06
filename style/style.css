@@ -50,13 +50,21 @@ h2 {
 	padding-left: 6px; 
 }
 p::before {
-	content: '    ';
+	content: '	';
 }
 
 
 .content {
 	flex-grow: 2;
 	background-color: white;
+}
+
+.menu-h2 {
+	font-size: 11pt;
+}
+
+.menu-ul {
+	font-size: 9pt;
 }
 
 .layout {
@@ -72,12 +80,16 @@ p::before {
 	border-right: 2px solid green;
 	border-bottom: 2px solid green;
 	height: 100%;
-	max-width: 18%;
+	max-width: 250px;
+	position: fixed;
 }
 
 .main {
 	text-align: center;
-	position: fixed;
+}
+
+.menu, .main {
+	display: inline-block;
 }
 
 .logotyp {
@@ -88,12 +100,12 @@ p::before {
 .back-to-top {
 	position: fixed;
 	right: 20px;
-    bottom: 65px;
+	bottom: 65px;
 }
 
 .back-to-top:hover,
 .back-to-top:focus {
-    filter: brightness(1.5);
-    outline: none;
+	filter: brightness(1.5);
+	outline: none;
 }
 /*</button-to-top>*/
