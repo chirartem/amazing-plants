@@ -33,35 +33,35 @@ if ($conn->connect_error) {
 			<span>Amazing <sub>plants</sub></span>
 		</a>
 	</div> -->
-	<div class="white_background_div">
-		<div class="display-flex">
-			<div class="menu">
-				<h2 class="menu-h2">Растения:</h2>
-				<ul class="menu-ul">
+	<div class="display-flex">
+		<div class="menu">
+			<h2 class="menu-h2">Растения:</h2>
+			<ul class="menu-ul">
 
-					<?php
-					$sql = "SELECT name from plants where visible=1 order by sort";
-					$result = $conn->query($sql);
+				<?php
+				$sql = "SELECT name from plants where visible=1 order by sort";
+				$result = $conn->query($sql);
 
-					while($row = $result->fetch_assoc()) {
-						echo "<li><a href=\"\">".$row["name"]."</a></li>";
-					} 
-					?>
-				</ul>
-				<h2 class="menu-h2">Деревья:</h2>
-				<ul class="menu-ul">
+				while($row = $result->fetch_assoc()) {
+					echo "<li><a href=\"\">".$row["name"]."</a></li>";
+				} 
+				?>
+			</ul>
+			<h2 class="menu-h2">Деревья:</h2>
+			<ul class="menu-ul">
 
-					<?php
-					$sql = "SELECT name from trees where visible=1 order by sort";
-					$result = $conn->query($sql);
+				<?php
+				$sql = "SELECT name from trees where visible=1 order by sort";
+				$result = $conn->query($sql);
 
-					while($row = $result->fetch_assoc()) {
-						echo "<li><a href=\"\">".$row["name"]."</a></li>";
-					} 
-					?>
+				while($row = $result->fetch_assoc()) {
+					echo "<li><a href=\"\">".$row["name"]."</a></li>";
+				} 
+				?>
 
-				</ul>
-			</div>
+			</ul>
+		</div>
+		<div class="white_background_div">
 			<div class="content">
 				<h1>Контакты:</h1>
 				<div class="contact-list"><img src="" alt="" /></div>
