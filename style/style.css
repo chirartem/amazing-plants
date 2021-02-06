@@ -73,6 +73,7 @@ li {
 	max-width: 150px;
 	position: fixed;
 	flex-wrap: wrap;
+	overflow: hidden;
 }
 
 .white_background_div {
