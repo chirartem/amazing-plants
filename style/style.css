@@ -49,17 +49,6 @@ h1 {
 h2 {
 	padding-left: 6px; 
 }
-p::before {
-	content: '	';
-}
-
-li:hover::before {
-	content: '🢒 ';
-}
-
-li:hover::after {
-	content: ' 🢐';
-}
 
 li {
 	font-size: 9pt;
