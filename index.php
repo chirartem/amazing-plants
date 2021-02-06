@@ -23,7 +23,7 @@ if ($conn->connect_error) {
 	<meta charset="UTF-8" />
 	<title>Интересные растения</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
 </head>
 <body>
 	<!-- <div class="logotyp">
@@ -60,6 +60,11 @@ if ($conn->connect_error) {
 
 		</ul>
 	</div>
-	<div class="content"></div>
+	<div class="content">
+		<h1>Контакты:</h1>
+		<div class="contact-list"><img src="" alt="" /></div>
+	</div>
+	<a href="" class="back-to-top"><img src="Images/solid.svg" alt=""> /</a>
+	<script src="Script/script.js"></script>
 </body>
 </html>

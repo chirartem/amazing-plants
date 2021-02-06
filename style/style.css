@@ -2,6 +2,7 @@ body {
 	color: black;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	background-image: url(../images/luxfon335.jpg);
 	background-size: 100%;
 	font-family: sans-serif, arial, helvetica;
 }
@@ -11,8 +12,13 @@ p {
 	text-align: justify;
 }
 
+* {
+	font-family: roboto, sans-serif,
+}
+
 li {
 	font-size: 13pt;
+	list-style-type: none;
 }
 
 a {
@@ -37,10 +43,20 @@ span {
 
 h1 {
 	text-align: center;
+	font-size: 16pt;
 }
+
+h2 {
+	padding-left: 6px; 
+}
+p::before {
+	content: '    ';
+}
+
 
 .content {
 	flex-grow: 2;
+	background-color: white;
 }
 
 .layout {
@@ -56,13 +72,28 @@ h1 {
 	border-right: 2px solid green;
 	border-bottom: 2px solid green;
 	height: 100%;
-	width: 18%;
+	max-width: 18%;
 }
 
 .main {
 	text-align: center;
+	position: fixed;
 }
 
 .logotyp {
 	padding-left: 0.13%;
 }
+
+/*<button-to-top>*/
+.back-to-top {
+	position: fixed;
+	right: 20px;
+    bottom: 65px;
+}
+
+.back-to-top:hover,
+.back-to-top:focus {
+    filter: brightness(1.5);
+    outline: none;
+}
+/*</button-to-top>*/
