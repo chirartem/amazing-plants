@@ -79,7 +79,7 @@ li {
 	margin-left: 1px;
 	margin-top: 3px;
 	border: 2px solid green;
-	height: 630px;
+	min-height: 630px;
 	max-width: 150px;
 	position: fixed;
 	flex-wrap: wrap;
