@@ -60,11 +60,11 @@ p::before {
 }
 
 .menu-h2 {
-	font-size: 11pt;
+	font-size: 15pt;
 }
 
 .menu-ul {
-	font-size: 9pt;
+	font-size: 19pt;
 }
 
 .layout {
@@ -79,8 +79,8 @@ p::before {
 	border: 2px solid green;
 	border-right: 2px solid green;
 	border-bottom: 2px solid green;
-	height: 100%;
-	max-width: 250px;
+	height: 400px;
+	max-width: 150px;
 	position: fixed;
 }
 
