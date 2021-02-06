@@ -76,11 +76,15 @@ li {
 }
 
 .white_background_div {
+	padding-top: 5px;
 	background: #F8F9FBFF;
+	width: 50%;
+	border-radius: 6px;
+	margin-left: 160px;
 }
 
 .content {
-	padding-left: 160px;
+	
 }
 
 .display-flex {
