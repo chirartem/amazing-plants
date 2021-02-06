@@ -22,12 +22,12 @@ li {
 }
 
 a {
-	color: red;
+	color: yellow;
 	text-decoration: none;
 }
 
 a:hover {
-	color: black;
+	color: #FFF;
 }
 
 hr {
