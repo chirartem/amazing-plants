@@ -53,8 +53,17 @@ p::before {
 	content: '	';
 }
 
+li:hover::before {
+ 	content: '&#129086; ';
+ }
+
+li:hover::after {
+	content: ' &#129084;';
+}
+
 li {
 	font-size: 9pt;
+
 }
 
 .menu-h2 {
@@ -64,6 +73,8 @@ li {
 .logo {
 	width: 18%;
 }
+
+
 
 .menu {
 	margin-left: 1px;

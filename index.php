@@ -66,7 +66,7 @@ if ($conn->connect_error) {
 				<div class="content">
 					<h1>Контакты:</h1>
 					<div class="contact-list">
-						<div class="contactspt"></div>
+						<div class="contactspt"><div></div></div>
 						<div class="contactspt"></div>
 						<div class="contactspt"></div>
 					</div>
@@ -74,7 +74,7 @@ if ($conn->connect_error) {
 			</div>
 		</div>
 		<!----------------------------------------------------------------------------------------------------------------------------------------->
-		<a href="" class="back-to-top"><img src="images/" alt="" /></a>
+		<a href="" class="back-to-top"><img src="images/up-the-page.svg" alt="Наверх" /></a>
 		<script src="Script/script.js"></script>
 	</div>
 </body>
