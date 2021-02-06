@@ -54,16 +54,15 @@ p::before {
 }
 
 li:hover::before {
- 	content: '&#129086; ';
- }
+	content: '🢒 ';
+}
 
 li:hover::after {
-	content: ' &#129084;';
+	content: ' 🢐';
 }
 
 li {
 	font-size: 9pt;
-
 }
 
 .menu-h2 {
