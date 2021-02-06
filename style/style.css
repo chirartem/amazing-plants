@@ -89,11 +89,11 @@ li {
 .menu-ul li:nth-child(4){border-color: #1ccfc9;}
 .menu-ul li:nth-child(5){border-color: #493224;}
 .menu-ul li:hover {border-left: 10px solid transparent;}
-.menu-ul li:nth-child(1):hover {border-right: 10px solid #f05d22;}
-.menu-ul li:nth-child(2):hover {border-right: 10px solid #8bc63e;}
-.menu-ul li:nth-child(3):hover {border-right: 10px solid #fcba30;}
-.menu-ul li:nth-child(4):hover {border-right: 10px solid #1ccfc9;}
-.menu-ul li:nth-child(5):hover {border-right: 10px solid #493224;}
+.menu-ul li:nth-child(1):hover {border-right: 2px solid #f05d22;}
+.menu-ul li:nth-child(2):hover {border-right: 2px solid #8bc63e;}
+.menu-ul li:nth-child(3):hover {border-right: 2px solid #fcba30;}
+.menu-ul li:nth-child(4):hover {border-right: 2px solid #1ccfc9;}
+.menu-ul li:nth-child(5):hover {border-right: 2px solid #493224;}
 
 .menu {
 	margin-left: 1px;
