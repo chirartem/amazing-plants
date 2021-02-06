@@ -63,8 +63,8 @@ p::before {
 	font-size: 15pt;
 }
 
-.menu-ul {
-	font-size: 19pt;
+li {
+	font-size: 9pt;
 }
 
 .layout {
