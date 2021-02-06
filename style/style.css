@@ -22,12 +22,12 @@ li {
 }
 
 a {
-	color: yellow;
+	color: red;
 	text-decoration: none;
 }
 
 a:hover {
-	color: white;
+	color: black;
 }
 
 hr {
@@ -52,6 +52,7 @@ h2 {
 
 li {
 	font-size: 9pt;
+}
 
 .menu-h2 {
 	font-size: 15pt;
