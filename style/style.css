@@ -53,17 +53,17 @@ p::before {
 	content: '	';
 }
 
+li {
+	font-size: 9pt;
+}
 
 .content {
 	margin-left: 160px;
+	background-color: white;
 }
 
 .menu-h2 {
 	font-size: 15pt;
-}
-
-li {
-	font-size: 9pt;
 }
 
 .logo {
