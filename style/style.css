@@ -77,8 +77,6 @@ li {
 
 .menu {
 	border: 2px solid green;
-	border-right: 2px solid green;
-	border-bottom: 2px solid green;
 	height: 400px;
 	max-width: 150px;
 	position: fixed;
