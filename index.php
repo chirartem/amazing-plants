@@ -88,7 +88,7 @@ if ($conn->connect_error) {
 
             $row = $result->fetch_assoc();
             echo $row["name"];
-            echo "<img src='/images/$link_type_$link_id.jpg'>"
+            echo "<img src='/images/{$link_type}_{$link_id}.jpg'>"
 			?>
 		</div>
 	</div>
