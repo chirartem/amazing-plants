@@ -45,7 +45,7 @@ if ($conn->connect_error) {
 					$result = $conn->query($sql);
 
 					while($row = $result->fetch_assoc()) {
-						echo "<li><a href=\"\">".$row["name"]."?type=plants&id=".$row["id"]."</a></li>";
+						echo "<li><a href=\"\\?type=plants&id=".$row["id"]."\">".$row["name"]."</a></li>";
 					} 
 					?>
 				</ul>
@@ -57,7 +57,7 @@ if ($conn->connect_error) {
 					$result = $conn->query($sql);
 
 					while($row = $result->fetch_assoc()) {
-						echo "<li><a href=\"\">".$row["name"]."?type=trees&id=".$row["id"]."</a></li>";
+						echo "<li><a href=\"\\?type=trees&id=".$row["id"]."\">".$row["name"]."</a></li>";
 					} 
 					?>
 
