@@ -21,20 +21,23 @@ li {
 	list-style-type: none;
 }
 
+a {
+	color: yellow;
+	text-decoration: none;
+}
+
 a:active {
 	background: #767769;
 	color: #fff;
 	border-radius: 5px;
 }
 
-a {
-	color: yellow;
-	text-decoration: none;
+a:visited {
+	color: #90278E;
 }
 
 a:hover {
 	text-decoration: underline;
-	color: yellow;
 }
 
 hr {
@@ -134,14 +137,16 @@ li {
 .back-to-top {
 	position: fixed;
 	right: 20px;
+	bottom: 65px;
+	background-color: green;
     bottom: 65px;
-    border-radius: 64px
-    background: green;
 }
 
 .back-to-top:hover,
 .back-to-top:focus {
 	filter: brightness(1.5);
 	outline: none;
+    filter: brightness(1.5);
+    outline: none;
 }
 /*----</button-to-top>----*/
