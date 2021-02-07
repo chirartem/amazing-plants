@@ -88,7 +88,7 @@ if ($conn->connect_error) {
 			$result = $conn->query($sql);
 
             $result->fetch_one();
-            print($row["name"]);
+            print($link_type.$_GET["id"].$row["name"]);
 			?>
 		</div>
 	</div>
