@@ -1,7 +1,7 @@
 body {
 	color: black;
 	background-attachment: fixed;
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
 	/* background-color: #F8F9FBFF; */
 	background-image: url(../images/luxfon335.jpg);
 	background-size: 100%;
@@ -28,7 +28,6 @@ a {
 
 a:hover {
 	text-decoration: underline;
-	color: yellow;
 }
 
 hr {
@@ -55,8 +54,6 @@ li {
 	font-size: 9pt;
 	padding-bottom: 5px;
 	border-bottom: 1px solid #FFF;
-	padding: 0;
-	margin: 0;
 }
 
 .menu-h2 {
