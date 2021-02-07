@@ -135,16 +135,13 @@ li {
 	position: fixed;
 	right: 20px;
     bottom: 65px;
+    border-radius: 64px
+    background: green;
 }
 
-.green-button-div:hover,
-.green-button-div:focus {
+.back-to-top:hover,
+.back-to-top:focus {
 	filter: brightness(1.5);
 	outline: none;
 }
-.green-button-div {
-    border-radius: 64px
-    background-color: green;
-}
-
 /*----</button-to-top>----*/
