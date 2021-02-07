@@ -87,7 +87,7 @@ li {
 	margin-left: 1px;
 	margin: 3px 0;
 	border: 2px solid green;
-	background-color: #ccc;
+	background-color: #EEE;
 	height: 99vh;
 	min-width: 150px;
 	position: fixed;
@@ -126,6 +126,7 @@ li {
 	flex-grow: 1;
 	flex-basis: 200px;
 	border: 2px solid #000;
+	display: flex;
 }
 
 /*
