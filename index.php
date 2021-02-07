@@ -76,7 +76,7 @@ if ($conn->connect_error) {
 			</div>
 		</div>
 		<!----------------------------------------------------------------------------------------------------------------------------------------->
-		<a href="" class="back-to-top"><img src="images/up-the-page.svg" alt="" /></a>
+		<a href="#" class="back-to-top"><img src="images/up-the-page.svg" alt=""></a>
 		<script src="script/script.js"></script>
 	</div>
 </body>
