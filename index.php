@@ -34,7 +34,6 @@ if ($conn->connect_error) {
 			<span>Amazing <sub>plants</sub></span>
 		</a>
 	</div> -->
-	<div class="display-flex">
 		<div class="menu">
 			<h2 class="menu-h2">Растения:</h2>
 			<ul class="menu-ul">
@@ -75,8 +74,6 @@ if ($conn->connect_error) {
 		</div>
 	</div>
 	<div class="main-container">
-		
-	</div>
 	<!----------------------------------------------------------------------------------------------------------------------------------------->
 	<a href="#" class="back-to-top"><img src="images/solid.svg" alt=""></a>
 	<script src="script/script.js"></script>
