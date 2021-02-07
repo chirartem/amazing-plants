@@ -74,6 +74,7 @@ if ($conn->connect_error) {
 					</div>
 				</div>
 			</div>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et dolor, odit nisi reiciendis harum illum voluptate, ut, ipsum iure quaerat, sit. Praesentium totam vero, ipsum in ullam voluptatibus cupiditate.</p>
 		</div>
 		<!----------------------------------------------------------------------------------------------------------------------------------------->
 		<a href="#" class="back-to-top"><img src="images/solid.svg" alt=""></a>
