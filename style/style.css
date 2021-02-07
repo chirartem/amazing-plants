@@ -105,6 +105,7 @@ li {
 .main-container {
 	margin-left: 25%;
 	margin-right: 40%;
+	vertical-align: center;
 }
 /* ------MAIN------ */
 .display-flex {
@@ -117,7 +118,7 @@ li {
 }
 
 .cont-container {
-	min-width: 750px;
+	max-width: 750px;
 	margin: 0 auto;
 }
 
