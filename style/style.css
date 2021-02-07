@@ -77,10 +77,10 @@ li {
 
 .menu {
 	margin-left: 1px;
-	margin-top: 3px;
+	margin: 3px 0;
 	border: 2px solid green;
 	background-color: #4b4a45;
-	height: 630px;
+	height: 850px;
 	max-width: 150px;
 	position: fixed;
 	flex-wrap: wrap;
