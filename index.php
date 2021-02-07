@@ -74,7 +74,12 @@ if ($conn->connect_error) {
 					</div>
 				</div>
 			</div>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et dolor, odit nisi reiciendis harum illum voluptate, ut, ipsum iure quaerat, sit. Praesentium totam vero, ipsum in ullam voluptatibus cupiditate.</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et dolor, odit nisi reiciendis harum illum voluptate, ut, ipsum iure quaerat, sit. Praesentium totam vero, ipsum in ullam voluptatibus cupiditate. Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Veritatis eligendi, quis, consectetur voluptatum quo corrupti porro velit excepturi. Nemo ad quidem dolorum tempora similique possimus nam modi eaque, placeat architecto!
+			Sint tenetur itaque, vel, fugit, minus a dolore impedit repellendus illum cupiditate sunt eaque neque quod? Hic, omnis. Modi expedita, similique ea amet rem molestias vel nobis ipsa in totam?
+			Amet saepe laborum perferendis hic, unde laudantium laboriosam vitae vel adipisci itaque eos tenetur expedita temporibus nulla perspiciatis impedit ex consectetur, rerum harum magnam quod? Molestiae aspernatur qui architecto at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, aperiam repellendus corrupti aspernatur, esse tempore itaque? Quod ipsum autem eius facilis, molestiae quae asperiores! Fuga doloremque, nisi aperiam animi provident?
+			Perspiciatis sit odit exercitationem amet quidem voluptas sunt autem, nam fugit, labore reprehenderit! Mollitia provident libero culpa corporis soluta ullam harum. Nihil earum doloribus itaque ratione maiores aspernatur, laudantium commodi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus impedit quidem, esse laborum sit hic nesciunt, aperiam nulla, harum quos facere explicabo. Voluptas earum, sed minima enim similique sit, placeat!
+			Eaque, sit doloremque similique sed dolores dolorum, expedita rem itaque! Dolores sint similique explicabo consequuntur, laboriosam ducimus sequi ipsum possimus corporis quas enim, accusamus voluptate impedit magni temporibus, deleniti. Dolorem.
+			Id minus doloribus at numquam vero, expedita error hic amet enim illum ipsum ullam, sunt earum laboriosam nam iste. Autem numquam iure unde ullam omnis harum repellat hic quod cupiditate.</p>
 		</div>
 		<!----------------------------------------------------------------------------------------------------------------------------------------->
 		<a href="#" class="back-to-top"><img src="images/solid.svg" alt=""></a>
