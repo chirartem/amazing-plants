@@ -87,8 +87,8 @@ if ($conn->connect_error) {
 			$sql = "SELECT name from $link_type where visible=1 and id=$link_id";
 			$result = $conn->query($sql);
 
-            $row = $result->fetch_one();
-            echo $row["name"];
+            $row = $result->fetchOne();
+            echo $row;
 			?>
 		</div>
 	</div>
