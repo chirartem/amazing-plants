@@ -18,6 +18,7 @@ p {
 
 li {
 	font-size: 13pt;
+	padding-left: 3px;
 	list-style-type: none;
 }
 
