@@ -87,7 +87,7 @@ if ($conn->connect_error) {
 			Quam voluptatem dolorum accusamus adipisci sunt rerum ea ullam ipsam, enim mollitia, necessitatibus perferendis ipsa, fuga blanditiis obcaecati autem! Optio, sed amet magni maxime corrupti placeat iste in laudantium alias?</p>
 		</div>
 		<!----------------------------------------------------------------------------------------------------------------------------------------->
-		<a href="#" class="back-to-top"><div class="green-button-div"><img src="images/up-the-page.svg" alt=""></div></a>
+		<a href="#" class="back-to-top"><img src="images/up-the-page.svg" alt="" /></a>
 		<script src="script/script.js"></script>
 	</div>
 </body>
