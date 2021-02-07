@@ -2,8 +2,7 @@ body {
 	color: black;
 	background-attachment: fixed;
 	background-repeat: repeat-y;
-	/* background-color: #F8F9FBFF; */
-	background-image: url(../images/luxfon338.jpg);
+	background-color: #F8F9FBFF;
 	background-size: 100%;
 }
 
@@ -84,9 +83,14 @@ li {
 	margin-left: 1px;
 	margin-top: 3px;
 	border: 2px solid green;
+	background-color: #4b4a45;
 	height: 630px;
 	max-width: 150px;
 	position: fixed;
+	flex-wrap: wrap;
+}
+
+.menu-ul {
 	flex-wrap: wrap;
 }
 

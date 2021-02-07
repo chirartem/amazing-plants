@@ -37,7 +37,7 @@ if ($conn->connect_error) {
 	<div class="display-flex">
 		<div class="menu">
 			<h2 class="menu-h2">Растения:</h2>
-			<ul>
+			<ul class="menu-ul">
 
 				<?php
 				$sql = "SELECT name from plants where visible=1 order by sort";
@@ -47,7 +47,7 @@ if ($conn->connect_error) {
 					echo "<li><a href=\"\">".$row["name"]."</a></li>";
 				} 
 				?>
-			</ul>
+			</ul class="menu-ul">
 			<h2 class="menu-h2">Деревья:</h2>
 			<ul>
 
