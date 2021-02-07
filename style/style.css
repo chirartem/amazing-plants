@@ -53,7 +53,7 @@ h2 {
 }
 
 li {
-	font-size: 11pt;
+	font-size: 9pt;
 }
 
 .menu-h2 {
@@ -79,7 +79,7 @@ li {
 	margin-left: 1px;
 	margin: 3px 0;
 	border: 2px solid green;
-	background-color: #4b4a45;
+	background-color: #f2f2f2;
 	height: 99vh;
 	min-width: 150px;
 	position: fixed;
