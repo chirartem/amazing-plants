@@ -1,0 +1,17 @@
+h1 {
+	font-size: calc(1.625rem + 4.5vw);
+	font-weight: 300;
+	line-height: 1.2;
+	font-family: Segoe Script;
+	text-align: center;
+	padding-top: 45vh;
+}
+
+.a {
+	text-decoration: none;
+	color: #E79B17FF;
+}
+
+.a:hover {
+	text-decoration: underline;
+}
