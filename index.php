@@ -69,14 +69,10 @@ if ($conn->connect_error) {
 				<div class="c-content">
 					<h1>Контакты:</h1>
 					<div class="contact-list">
-						<table>
-							<tr class="">
-								<td class="contactspt"><div class="img-align"><a href="https://github.com/chirartem/amazing-plants"><img src="images/github.svg" alt="" class="contacts-img" /></a></div></td>
-								<td class="contactspt"><div class="img-align"><a href="mailto:chirartem@gmail.com"><img src="images/gmail.svg" alt="" class="contacts-img" /></a></div></td>
-								<td class="contactspt"><div class="img-align"><a href=""><img src="images/instagram.svg" alt="" class="contacts-img" /></a></div></td>
-								<td class="contactspt"><div class="img-align"><a href=""><img src="images/telegram.svg" alt="" class="contacts-img" /></a></div></td>
-							</tr>
-						</table>
+						<div class="contactspt"><div class="img-align"><a href="https://github.com/chirartem/amazing-plants"><img src="images/github.svg" alt="" class="contacts-img" /></a></div></div>
+						<div class="contactspt"><div class="img-align"><a href="mailto:chirartem@gmail.com"><img src="images/gmail.svg" alt="" class="contacts-img" /></a></div></div>
+						<div class="contactspt"><div class="img-align"><a href=""><img src="images/instagram.svg" alt="" class="contacts-img" /></a></div></div>
+						<div class="contactspt"><div class="img-align"><a href=""><img src="images/telegram.svg" alt="" class="contacts-img" /></a></div></div>
 					</div>
 				</div>
 			</div>
@@ -86,10 +82,10 @@ if ($conn->connect_error) {
 			$sql = "SELECT name, content from $link_type where visible=1 and id=$link_id";
 			$result = $conn->query($sql);
 
-            $row = $result->fetch_assoc();
-            echo $row["name"];
-            echo "<br />";
-            echo $row["content"];
+			$row = $result->fetch_assoc();
+			echo $row["name"];
+			echo "<br />";
+			echo $row["content"];
 //            echo "<img src='/images/{$link_type}_{$link_id}.jpg'>"
 			?>
 		</div>
