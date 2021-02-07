@@ -85,11 +85,10 @@ if ($conn->connect_error) {
 			$link_type = $_GET["type"];
 			$link_id = $_GET["id"];
 			$sql = "SELECT name from $link_type where visible=1 and id=$link_id";
-			echo $sql;
 			$result = $conn->query($sql);
 
-            var_dump($result->fetch_assoc());
-            echo $row;
+            $result->fetch_assoc();
+            echo $row["name"];
 			?>
 		</div>
 	</div>
