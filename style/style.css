@@ -21,15 +21,15 @@ li {
 	list-style-type: none;
 }
 
-a {
-	color: yellow;
-	text-decoration: none;
-}
-
 a:active {
 	background: #767769;
 	color: #fff;
 	border-radius: 5px;
+}
+
+a {
+	color: yellow;
+	text-decoration: none;
 }
 
 a:hover {
