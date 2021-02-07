@@ -68,11 +68,15 @@ if ($conn->connect_error) {
 			<div class="cont-container">
 				<div class="c-content">
 					<h1>Контакты:</h1>
-					<div class="contact-list"> 
-						<div class="contactspt"><div class="img-align"><a href="https://github.com/chirartem/amazing-plants"><img src="images/github.svg" alt="" class="contacts-img" /></a></div></div>
-						<div class="contactspt"><div class="img-align"><a href="mailto:chirartem@gmail.com"><img src="images/gmail.svg" alt="" class="contacts-img" /></a></div></div>
-						<div class="contactspt"><div class="img-align"><a href=""><img src="images/instagram.svg" alt="" class="contacts-img" /></a></div></div>
-						<div class="contactspt"><div class="img-align"><a href=""><img src="images/telegram.svg" alt="" class="contacts-img" /></a></div></div>
+					<div class="contact-list">
+						<table>
+							<tr>
+								<td><div class="img-align"><a href="https://github.com/chirartem/amazing-plants"><img src="images/github.svg" alt="" class="contacts-img" /></a></div></td>
+								<td><div class="img-align"><a href="mailto:chirartem@gmail.com"><img src="images/gmail.svg" alt="" class="contacts-img" /></a></div></td>
+								<td><div class="img-align"><a href=""><img src="images/instagram.svg" alt="" class="contacts-img" /></a></div></td>
+								<td><div class="img-align"><a href=""><img src="images/telegram.svg" alt="" class="contacts-img" /></a></div></td>
+							</tr>
+						</table>
 					</div>
 				</div>
 			</div>
