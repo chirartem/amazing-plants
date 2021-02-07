@@ -43,10 +43,6 @@ hr {
 	height: 1px;
 }
 
-span {
-	color: #1BEA14FF;
-}
-
 h1 {
 	text-align: center;
 	font-size: 16pt;
@@ -94,10 +90,15 @@ li {
 	flex-wrap: wrap;
 }
 
-.content {
+.c-content {
 	padding: 5px;
 }
-
+/* ------MAIN------ */
+.main-container {
+	margin-left: 25%;
+	margin-right: 40%;
+}
+/* ------MAIN------ */
 .display-flex {
 	display: flex;
 }
@@ -127,9 +128,9 @@ li {
 .back-to-top {
 	position: fixed;
 	right: 20px;
-    bottom: 65px;
-    border-radius: 64px
-    background: green;
+	bottom: 65px;
+	border-radius: 64px
+	background: green;
 }
 
 .back-to-top:hover,
