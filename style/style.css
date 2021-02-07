@@ -137,8 +137,7 @@ li {
 .back-to-top {
 	position: fixed;
 	right: 20px;
-	bottom: 65px;
-	background-color: green;
+    bottom: 65px;
 }
 
 .back-to-top:hover,
