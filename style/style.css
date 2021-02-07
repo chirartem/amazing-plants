@@ -135,8 +135,6 @@ li {
 	position: fixed;
 	right: 20px;
     bottom: 65px;
-    border-radius: 64px
-    background: green;
 }
 
 .back-to-top:hover,
@@ -144,4 +142,9 @@ li {
 	filter: brightness(1.5);
 	outline: none;
 }
+.green-button-div {
+    border-radius: 64px
+    background: green;
+}
+
 /*----</button-to-top>----*/
