@@ -85,9 +85,10 @@ li {
 }
 
 .white_background_div {
-	margin-top: 5px;
+	margin: 5px 0;
 	background: #F8F9FBFF;
 	width: 100%;
+	height: 100%;
 	border-radius: 6px;
 	margin-left: 160px;
 	margin-right: 9px;
