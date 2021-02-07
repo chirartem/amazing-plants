@@ -81,7 +81,7 @@ li {
 	border: 2px solid green;
 	background-color: #4b4a45;
 	height: 99vh;
-	max-width: 150px;
+	min-width: 150px;
 	position: fixed;
 	flex-wrap: wrap;
 }
