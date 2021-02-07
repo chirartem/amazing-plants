@@ -137,13 +137,12 @@ li {
 .back-to-top {
 	position: fixed;
 	right: 20px;
-	bottom: 65px;
-	background-color: green;
+    bottom: 65px;
 }
 
 .back-to-top:hover,
 .back-to-top:focus {
-	filter: brightness(1.5);
-	outline: none;
+    filter: brightness(1.5);
+    outline: none;
 }
 /*----</button-to-top>----*/
