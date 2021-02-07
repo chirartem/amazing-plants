@@ -31,13 +31,13 @@ a:active {
 }
 
 a {
-	color: yellow;
 	text-decoration: none;
+	color: #000;
 }
 
 a:hover {
 	text-decoration: underline;
-	color: yellow;
+	filter: brightness(0.5);
 }
 
 hr {
