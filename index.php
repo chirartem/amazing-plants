@@ -84,12 +84,11 @@ if ($conn->connect_error) {
 			<?php
 			$link_type = $_GET["type"];
 			$link_id = $_GET["id"];
-			echo $_GET["type"];
 			$sql = "SELECT name from $link_type where visible=1 and id=$link_id";
 			$result = $conn->query($sql);
 
-            $result->fetch_one();
-            $row["name"];
+            $row = $result->fetch_one();
+            echo $row["name"];
 			?>
 		</div>
 	</div>
