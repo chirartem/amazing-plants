@@ -41,11 +41,11 @@ if ($conn->connect_error) {
 				<ul class="menu-ul">
 
 					<?php
-					$sql = "SELECT name from plants where visible=1 order by sort";
+					$sql = "SELECT id, name from plants where visible=1 order by sort";
 					$result = $conn->query($sql);
 
 					while($row = $result->fetch_assoc()) {
-						echo "<li><a href=\"\">".$row["name"]."</a></li>";
+						echo "<li><a href=\"\">".$row["name"]."?type=plants&id=".$row["id"]."</a></li>";
 					} 
 					?>
 				</ul>
@@ -53,11 +53,11 @@ if ($conn->connect_error) {
 				<ul class="menu-ul">
 
 					<?php
-					$sql = "SELECT name from trees where visible=1 order by sort";
+					$sql = "SELECT id, name from trees where visible=1 order by sort";
 					$result = $conn->query($sql);
 
 					while($row = $result->fetch_assoc()) {
-						echo "<li><a href=\"\">".$row["name"]."</a></li>";
+						echo "<li><a href=\"\">".$row["name"]."?type=trees&id=".$row["id"]."</a></li>";
 					} 
 					?>
 
@@ -70,11 +70,11 @@ if ($conn->connect_error) {
 					<h1>Контакты:</h1>
 					<div class="contact-list">
 						<table>
-							<tr>
-								<td><div class="img-align"><a href="https://github.com/chirartem/amazing-plants"><img src="images/github.svg" alt="" class="contacts-img" /></a></div></td>
-								<td><div class="img-align"><a href="mailto:chirartem@gmail.com"><img src="images/gmail.svg" alt="" class="contacts-img" /></a></div></td>
-								<td><div class="img-align"><a href=""><img src="images/instagram.svg" alt="" class="contacts-img" /></a></div></td>
-								<td><div class="img-align"><a href=""><img src="images/telegram.svg" alt="" class="contacts-img" /></a></div></td>
+							<tr class="">
+								<td class="contactspt"><div class="img-align"><a href="https://github.com/chirartem/amazing-plants"><img src="images/github.svg" alt="" class="contacts-img" /></a></div></td>
+								<td class="contactspt"><div class="img-align"><a href="mailto:chirartem@gmail.com"><img src="images/gmail.svg" alt="" class="contacts-img" /></a></div></td>
+								<td class="contactspt"><div class="img-align"><a href=""><img src="images/instagram.svg" alt="" class="contacts-img" /></a></div></td>
+								<td class="contactspt"><div class="img-align"><a href=""><img src="images/telegram.svg" alt="" class="contacts-img" /></a></div></td>
 							</tr>
 						</table>
 					</div>
