@@ -32,10 +32,6 @@ a:active {
 	border-radius: 5px;
 }
 
-a:visited {
-	color: #90278E;
-}
-
 a:hover {
 	text-decoration: underline;
 }
@@ -138,6 +134,8 @@ li {
 	position: fixed;
 	right: 20px;
     bottom: 65px;
+    border-radius: 64px
+    background: green;
 }
 
 .back-to-top:hover,
