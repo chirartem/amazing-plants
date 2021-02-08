@@ -114,6 +114,12 @@ li {
 	width: 100%;
 	padding: 5px;
 }
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .button-align-card {
 	text-align: center;
 }
