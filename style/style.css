@@ -95,20 +95,18 @@ li {
 .c-content {
 	padding: 5px;
 }
-/* ------MAIN------ */
+/* ------<MAIN>------ */
 .main-container {
 	margin-left: 25%;
 	margin-right: 40%;
 	vertical-align: center;
 }
-/* ------MAIN------ */
+/* ------</MAIN>------ */
 .display-flex {
 	display: flex;
 }
 
 .contact-list {
-	display: inline-block;
-	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
@@ -119,7 +117,7 @@ li {
 
 .contactspt {
 	flex-grow: 1;
-	flex-basis: 200px;
+	display: inline-block;
 	border: 2px solid #000;
 }
 
