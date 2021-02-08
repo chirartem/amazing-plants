@@ -68,7 +68,6 @@ if ($conn->connect_error) {
 	<div class="main-container">
 		<div class="cont-container">
 			<div class="c-content">
-				<h1>Контакты:</h1>
 				<div class="contact-list">
 					<div class="contactspt"><div class="img-align"><a href="https://github.com/chirartem/amazing-plants"><img src="images/github.svg" alt="" class="contacts-img" /></a></div></div>
 					<div class="contactspt"><div class="img-align"><a href="mailto:chirartem@gmail.com"><img src="images/gmail.svg" alt="" class="contacts-img" /></a></div></div>
