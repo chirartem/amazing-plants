@@ -88,7 +88,7 @@ if ($conn->connect_error) {
 			echo $row["content"];
 			//echo "<img src='/images/{$link_type}_{$link_id}.jpg'>"
 			?> -->
-			<div class="card" style="width: 18rem;">
+			<div class="card flex-wrap" style="width: 18rem;">
 				<img src="images/coshca.jpeg" class="card-img-top" alt="Самые большие">
 				<div class="card-body">
 					<h5 class="card-title"></h5>
