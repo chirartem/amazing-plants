@@ -96,7 +96,7 @@ li {
 
 /* ------<MAIN>------ */
 .main-container {
-	margin: 4px 40% 0 25;
+	padding: 4px 0;
 	margin-left: 25%;
 	margin-right: 40%;
 }
