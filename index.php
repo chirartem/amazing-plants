@@ -64,14 +64,12 @@ if ($conn->connect_error) {
 		</div>
 	</div>
 		<!--<div class="cont-container">
-			<div class="c-content">
 				<div class="contact-list">
 					<div class="contactspt"><div class="img-align"><a href="https://github.com/chirartem/amazing-plants"><img src="images/github.svg" alt="" class="contacts-img" /></a></div></div>
 					<div class="contactspt"><div class="img-align"><a href="mailto:chirartem@gmail.com"><img src="images/gmail.svg" alt="" class="contacts-img" /></a></div></div>
 					<div class="contactspt"><div class="img-align"><a href=""><img src="images/instagram.svg" alt="" class="contacts-img" /></a></div></div>
 					<div class="contactspt"><div class="img-align"><a href=""><img src="images/telegram.svg" alt="" class="contacts-img" /></a></div></div>
-				</div>
-			</div> 
+			</div>
 			<div class="contacts-diver">1</div>
 			<div class="contacts-diver">2</div>
 			<div class="contacts-diver">3</div>
@@ -94,8 +92,7 @@ if ($conn->connect_error) {
 				<img src="images/coshca.jpeg" class="card-img-top" alt="Самые большие">
 				<div class="card-body">
 					<h5 class="card-title"></h5>
-					<p class="card-text"></p>
-					<a href="#" class="btn btn-primary">Самые большие</a>
+					<div class="button-align-card"><a href="#" class="btn btn-primary">Самые большие</a></div>
 				</div>
 			</div>
 		</div>

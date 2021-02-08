@@ -94,11 +94,9 @@ li {
 	flex-wrap: wrap;
 }
 
-.c-content {
-	padding: 5px;
-}
 /* ------<MAIN>------ */
 .main-container {
+	margin: 4px 40% 0 25;
 	margin-left: 25%;
 	margin-right: 40%;
 }
@@ -109,6 +107,10 @@ li {
 
 .contact-list {
 	width: 100%;
+	padding: 5px;
+}
+.button-align-card {
+	text-align: center;
 }
 
 .cont-container {
