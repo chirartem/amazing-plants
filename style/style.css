@@ -107,6 +107,7 @@ li {
 
 .flex-wrap {
 	flex-wrap: wrap;
+	display: inline-block;
 }
 
 .contact-list {
