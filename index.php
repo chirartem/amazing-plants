@@ -78,7 +78,7 @@ if ($conn->connect_error) {
 			<div class="contacts-diver">4</div>
 		</div>-->
 		<div class="main-container">
-			<?php
+			<!-- <?php
 			$link_type = $_GET["type"];
 			$link_id = $_GET["id"];
 			$sql = "SELECT name, content from $link_type where visible=1 and id=$link_id";
@@ -89,7 +89,7 @@ if ($conn->connect_error) {
 			echo "<br />";
 			echo $row["content"];
 			//echo "<img src='/images/{$link_type}_{$link_id}.jpg'>"
-			?>
+			?> -->
 			<div class="card" style="width: 18rem;">
 				<img src="images/" class="card-img-top" alt="Самые большие">
 				<div class="card-body">
