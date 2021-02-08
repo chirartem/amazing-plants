@@ -45,7 +45,7 @@ if ($conn->connect_error) {
 					$result = $conn->query($sql);
 
 					while($row = $result->fetch_assoc()) {
-						echo "<li><a href=\"/?type=plants&id=".$row["id"]."\">".$row["name"]."</a></li>";
+						echo "<li class=\"menu-list\"><a class=\"menu-link\" href=\"/?type=plants&id=".$row["id"]."\">".$row["name"]."</a></li>";
 					} 
 					?>
 				</ul>
@@ -65,8 +65,7 @@ if ($conn->connect_error) {
 			</div>
 		</div>
 	</div>
-	<div class="main-container">
-		<div class="cont-container">
+		<!--<div class="cont-container">
 			<div class="c-content">
 				<div class="contact-list">
 					<div class="contactspt"><div class="img-align"><a href="https://github.com/chirartem/amazing-plants"><img src="images/github.svg" alt="" class="contacts-img" /></a></div></div>
@@ -74,8 +73,13 @@ if ($conn->connect_error) {
 					<div class="contactspt"><div class="img-align"><a href=""><img src="images/instagram.svg" alt="" class="contacts-img" /></a></div></div>
 					<div class="contactspt"><div class="img-align"><a href=""><img src="images/telegram.svg" alt="" class="contacts-img" /></a></div></div>
 				</div>
-			</div>
-		</div>
+			</div> 
+			<div class="contacts-diver">1</div>
+			<div class="contacts-diver">2</div>
+			<div class="contacts-diver">3</div>
+			<div class="contacts-diver">4</div>
+		</div>-->
+		<div class="main-container">
 		<?php
 		$link_type = $_GET["type"];
 		$link_id = $_GET["id"];

@@ -19,17 +19,17 @@ p::before {
 	padding-left: 5px;
 }
 
-li {
+.menu-list {
 	font-size: 13pt;
 	list-style-type: none;
 }
 
-a {
+.menu-link {
 	text-decoration: none;
 	color: #283542;
 }
 
-a:hover {
+.menu-link:hover {
 	text-decoration: underline;
 	filter: brightness(0.5);
 }
@@ -69,6 +69,7 @@ li {
 
 .img-align {
 	text-align: center;
+	vertical-align: middle;
 }
 
 .contacts-img {
@@ -77,8 +78,13 @@ li {
 	padding: 3px;
 }
 
+.contacts-diver {
+	width: ;
+	height: ;
+}
+
 .menu {
-	margin-left: 1px;
+	margin-left: 3px;
 	margin: 3px 0;
 	border: 2px solid green;
 	background-color: #EEE;
@@ -106,16 +112,14 @@ li {
 }
 
 .contact-list {
-	justify-content: space-between;
+	width: 100%;
 }
 
 .cont-container {
-	max-width: 750px;
-	margin: 0 auto;
+	justify-content: space-between;
 }
 
 .contactspt {
-	flex-grow: 1;
 	display: inline-block;
 	border: 2px solid #000;
 }
