@@ -88,11 +88,18 @@ if ($conn->connect_error) {
 			echo $row["content"];
 			//echo "<img src='/images/{$link_type}_{$link_id}.jpg'>"
 			?> -->
-			<div class="card flex-wrap" style="width: 18rem;">
-				<img src="images/coshca.jpeg" class="card-img-top" alt="Самые большие">
-				<div class="card-body">
-					<h5 class="card-title"></h5>
-					<div class="button-align-card"><a href="#" class="btn btn-primary">Самые большие</a></div>
+			<div class="cards">
+				<div class="card flex-wrap" style="width: 18rem;">
+					<img src="images/card-avatars/icon_1.png" class="card-img-top" alt="Самые большие">
+					<div class="card-body">
+						<div class="button-align-card"><a href="#" class="btn btn-primary">Самые большие</a></div>
+					</div>
+				</div>
+				<div class="card flex-wrap" style="width: 18rem;">
+					<img src="images/card-avatars/icon_3.png" class="card-img-top" alt="Самые маленькие">
+					<div class="card-body">
+						<div class="button-align-card"><a href="#" class="btn btn-primary">Самые маленькие</a></div>
+					</div>
 				</div>
 			</div>
 		</div>
