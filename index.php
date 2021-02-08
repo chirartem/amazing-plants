@@ -36,33 +36,31 @@ if ($conn->connect_error) {
 	</div> -->
 	<div class="display-flex">
 		<div class="menu">
-			<div class="menu-padding">
-				<h2 class="menu-h2">Растения:</h2>
-				<ul class="menu-ul">
+			<h2 class="menu-h2">Растения:</h2>
+			<ul class="menu-ul">
 
-					<?php
-					$sql = "SELECT id, name from plants where visible=1 order by sort";
-					$result = $conn->query($sql);
+				<?php
+				$sql = "SELECT id, name from plants where visible=1 order by sort";
+				$result = $conn->query($sql);
 
-					while($row = $result->fetch_assoc()) {
-						echo "<li class=\"menu-list\"><a class=\"menu-link\" href=\"/?type=plants&id=".$row["id"]."\">".$row["name"]."</a></li>";
-					} 
-					?>
-				</ul>
-				<h2 class="menu-h2">Деревья:</h2>
-				<ul class="menu-ul">
+				while($row = $result->fetch_assoc()) {
+					echo "<li class=\"menu-list\"><a class=\"menu-link\" href=\"/?type=plants&id=".$row["id"]."\">".$row["name"]."</a></li>";
+				} 
+				?>
+			</ul>
+			<h2 class="menu-h2">Деревья:</h2>
+			<ul class="menu-ul">
 
-					<?php
-					$sql = "SELECT id, name from trees where visible=1 order by sort";
-					$result = $conn->query($sql);
+				<?php
+				$sql = "SELECT id, name from trees where visible=1 order by sort";
+				$result = $conn->query($sql);
 
-					while($row = $result->fetch_assoc()) {
-						echo "<li class=\"menu-list\"><a href=\"/?type=trees&id=".$row["id"]."\" class=\"menu-link\">".$row["name"]."</a></li>";
-					} 
-					?>
+				while($row = $result->fetch_assoc()) {
+					echo "<li class=\"menu-list\"><a href=\"/?type=trees&id=".$row["id"]."\" class=\"menu-link\">".$row["name"]."</a></li>";
+				} 
+				?>
 
-				</ul>
-			</div>
+			</ul>
 		</div>
 	</div>
 		<!--<div class="cont-container">
@@ -80,21 +78,29 @@ if ($conn->connect_error) {
 			<div class="contacts-diver">4</div>
 		</div>-->
 		<div class="main-container">
-		<?php
-		$link_type = $_GET["type"];
-		$link_id = $_GET["id"];
-		$sql = "SELECT name, content from $link_type where visible=1 and id=$link_id";
-		$result = $conn->query($sql);
+			<?php
+			$link_type = $_GET["type"];
+			$link_id = $_GET["id"];
+			$sql = "SELECT name, content from $link_type where visible=1 and id=$link_id";
+			$result = $conn->query($sql);
 
-		$row = $result->fetch_assoc();
-		echo $row["name"];
-		echo "<br />";
-		echo $row["content"];
+			$row = $result->fetch_assoc();
+			echo $row["name"];
+			echo "<br />";
+			echo $row["content"];
 			//echo "<img src='/images/{$link_type}_{$link_id}.jpg'>"
-		?>
-	</div>
-	<!----------------------------------------------------------------------------------------------------------------------------------------->
-	<a href="#" class="back-to-top"></a>
-	<script src="script/script.js"></script>
-</body>
-</html>
+			?>
+			<div class="card" style="width: 18rem;">
+				<img src="images/" class="card-img-top" alt="Самые большие">
+				<div class="card-body">
+					<h5 class="card-title"></h5>
+					<p class="card-text"></p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+		</div>
+		<!----------------------------------------------------------------------------------------------------------------------------------------->
+		<a href="#" class="back-to-top"></a>
+		<script src="script/script.js"></script>
+	</body>
+	</html>
