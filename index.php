@@ -89,7 +89,7 @@ if ($conn->connect_error) {
 			//echo "<img src='/images/{$link_type}_{$link_id}.jpg'>"
 			?>
 			<?php
-			if ($link_id == 3) {
+			if !($link_id) {
 			?>
 			<div class="cards">
 				<div class="flex-wrap card" style="width: 18rem;">
