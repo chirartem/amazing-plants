@@ -106,6 +106,18 @@ if ($conn->connect_error) {
 							<div class="button-align-card"><a href="#" class="btn btn-primary">Самые маленькие</a></div>
 						</div>
 					</div>
+					<div class="flex-wrap card" style="width: 18rem;">
+						<img src="images/card-avatars/icon_3.png" class="card-img-top" alt="Самые маленькие">
+						<div class="card-body">
+							<div class="button-align-card"><a href="#" class="btn btn-primary">Самые маленькие</a></div>
+						</div>
+					</div>
+					<div class="flex-wrap card" style="width: 18rem;">
+						<img src="images/card-avatars/icon_3.png" class="card-img-top" alt="Самые маленькие">
+						<div class="card-body">
+							<div class="button-align-card"><a href="#" class="btn btn-primary">Самые маленькие</a></div>
+						</div>
+					</div>
 				</div>
 				<?php 
 			} 
