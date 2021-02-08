@@ -24,12 +24,6 @@ li {
 	list-style-type: none;
 }
 
-a:active {
-	background: #767769;
-	color: #fff;
-	border-radius: 5px;
-}
-
 a {
 	text-decoration: none;
 	color: #283542;
@@ -113,7 +107,7 @@ li {
 }
 
 .contact-list {
-	display: flex;
+	display: inline-block;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
