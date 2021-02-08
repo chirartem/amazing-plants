@@ -64,34 +64,34 @@ if ($conn->connect_error) {
 				</ul>
 			</div>
 		</div>
-		<div class="main-container">
-			<div class="cont-container">
-				<div class="c-content">
-					<h1>Контакты:</h1>
-					<div class="contact-list">
-						<div class="contactspt"><div class="img-align"><a href="https://github.com/chirartem/amazing-plants"><img src="images/github.svg" alt="" class="contacts-img" /></a></div></div>
-						<div class="contactspt"><div class="img-align"><a href="mailto:chirartem@gmail.com"><img src="images/gmail.svg" alt="" class="contacts-img" /></a></div></div>
-						<div class="contactspt"><div class="img-align"><a href=""><img src="images/instagram.svg" alt="" class="contacts-img" /></a></div></div>
-						<div class="contactspt"><div class="img-align"><a href=""><img src="images/telegram.svg" alt="" class="contacts-img" /></a></div></div>
-					</div>
+	</div>
+	<div class="main-container">
+		<div class="cont-container">
+			<div class="c-content">
+				<h1>Контакты:</h1>
+				<div class="contact-list">
+					<div class="contactspt"><div class="img-align"><a href="https://github.com/chirartem/amazing-plants"><img src="images/github.svg" alt="" class="contacts-img" /></a></div></div>
+					<div class="contactspt"><div class="img-align"><a href="mailto:chirartem@gmail.com"><img src="images/gmail.svg" alt="" class="contacts-img" /></a></div></div>
+					<div class="contactspt"><div class="img-align"><a href=""><img src="images/instagram.svg" alt="" class="contacts-img" /></a></div></div>
+					<div class="contactspt"><div class="img-align"><a href=""><img src="images/telegram.svg" alt="" class="contacts-img" /></a></div></div>
 				</div>
 			</div>
-			<?php
-			$link_type = $_GET["type"];
-			$link_id = $_GET["id"];
-			$sql = "SELECT name, content from $link_type where visible=1 and id=$link_id";
-			$result = $conn->query($sql);
-
-			$row = $result->fetch_assoc();
-			echo $row["name"];
-			echo "<br />";
-			echo $row["content"];
-//            echo "<img src='/images/{$link_type}_{$link_id}.jpg'>"
-			?>
 		</div>
+		<?php
+		$link_type = $_GET["type"];
+		$link_id = $_GET["id"];
+		$sql = "SELECT name, content from $link_type where visible=1 and id=$link_id";
+		$result = $conn->query($sql);
+
+		$row = $result->fetch_assoc();
+		echo $row["name"];
+		echo "<br />";
+		echo $row["content"];
+			//echo "<img src='/images/{$link_type}_{$link_id}.jpg'>"
+		?>
 	</div>
 	<!----------------------------------------------------------------------------------------------------------------------------------------->
-	<a href="#" class="back-to-top"><img src="images/solid.svg" alt=""></a>
+	<a href="#" class="back-to-top"></a>
 	<script src="script/script.js"></script>
 </body>
 </html>
