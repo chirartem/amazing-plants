@@ -76,7 +76,7 @@ if ($conn->connect_error) {
 			<div class="contacts-diver">4</div>
 		</div>-->
 		<div class="main-container">
-			<!-- <?php
+			<?php
 			$link_type = $_GET["type"];
 			$link_id = $_GET["id"];
 			$sql = "SELECT name, content from $link_type where visible=1 and id=$link_id";
@@ -87,21 +87,27 @@ if ($conn->connect_error) {
 			echo "<br />";
 			echo $row["content"];
 			//echo "<img src='/images/{$link_type}_{$link_id}.jpg'>"
-			?> -->
+			?>
+			<?php
+			if ($link_id == 3) {
+			?>
 			<div class="cards">
-				<div class="card flex-wrap" style="width: 18rem;">
+				<div class="flex-wrap card" style="width: 18rem;">
 					<img src="images/card-avatars/icon_1.png" class="card-img-top" alt="Самые большие">
 					<div class="card-body">
 						<div class="button-align-card"><a href="#" class="btn btn-primary">Самые большие</a></div>
 					</div>
 				</div>
-				<div class="card flex-wrap" style="width: 18rem;">
+				<div class="flex-wrap card" style="width: 18rem;">
 					<img src="images/card-avatars/icon_3.png" class="card-img-top" alt="Самые маленькие">
 					<div class="card-body">
 						<div class="button-align-card"><a href="#" class="btn btn-primary">Самые маленькие</a></div>
 					</div>
 				</div>
 			</div>
+			<?php 
+			} 
+			?>
 		</div>
 		<!----------------------------------------------------------------------------------------------------------------------------------------->
 		<a href="#" class="back-to-top"></a>
