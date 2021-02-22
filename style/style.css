@@ -1,162 +1,150 @@
 body {
-  color: black;
-  background-attachment: fixed;
-  background-repeat: repeat-y;
-  background-color: #f8f9fb;
-  background-size: 100%;
+    color: black;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-color: #F8F9FB;
+    background-size: 100%;
 }
 
 p {
-  font-size: 24px;
-  text-align: justify;
-}
-
-p::before {
-  padding-left: 5px;
+    font-size: 24px;
+    text-align: justify;
 }
 
 * {
-  font-family: roboto, sans-serif, arial, helvetica;
+    font-family: roboto, sans-serif, arial, helvetica;
 }
 
-hr {
-  border: none;
-  color: #404040;
-  background-color: #404040;
-  height: 1px;
-}
-
-h1 {
-  text-align: center;
-  font-size: 16pt;
-}
-
-h2 {
-  padding-left: 6px;
-}
-
-li {
-  font-size: 9pt;
-}
-
-.logo {
-  width: 18%;
-}
-
-.img-align {
-  text-align: center;
-  vertical-align: middle;
-}
-
-.contacts-img {
-  width: 25px;
-  height: 25px;
-  padding: 3px;
-}
-
-.contacts-diver {
-  width: 0;
-  height: 0;
-}
-
-.menu {
-  margin: 3px;
-  border: 2px solid green;
-  padding: 0 5px;
-  background-color: #eee;
-  height: 99vh;
-  min-width: 150px;
-  position: fixed;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.menu-link {
-  font-size: 13pt;
-  text-decoration: none;
-  color: #283542;
-}
-
-.menu-link:hover {
-  text-decoration: underline;
-  -webkit-filter: brightness(0.5);
-          filter: brightness(0.5);
-}
-
-.menu-h2 {
-  font-size: 15pt;
-  color: #2b2b2bff;
-}
-
-.menu-ul {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+p::before {
+    padding-left: 5px;
 }
 
 .menu-list {
-  list-style-type: none;
+    list-style-type: none;
+}
+
+.menu-link {
+    font-size: 13pt;
+    text-decoration: none;
+    color: #283542;
+}
+
+.menu-link:hover {
+    text-decoration: underline;
+    filter: brightness(0.5);
+}
+
+hr {
+    border: none;
+    color: #404040;
+    background-color: #404040;
+    height: 1px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 16pt;
+}
+
+h2 {
+    padding-left: 6px; 
+}
+
+li {
+    font-size: 9pt;
+}
+
+.menu-h2 {
+    font-size: 15pt;
+    color: #2B2B2BFF;
+}
+
+.logo {
+    width: 18%;
+}
+
+.img-align {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.contacts-img {
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+}
+
+.contacts-diver {
+    width: ;
+    height: ;
+}
+
+.menu {
+    margin: 3px;
+    border: 2px solid green;
+    padding: 0 5px;
+    background-color: #EEE;
+    height: 99vh;
+    min-width: 150px;
+    position: fixed;
+    flex-wrap: wrap;
+}
+
+.menu-ul {
+    flex-wrap: wrap;
 }
 
 /* ------<MAIN>------ */
 .main-container {
-  padding: 8px 0;
-  margin-left: 30%;
-  margin-right: 35%;
+    padding: 8px 0;
+    margin-left: 30%;
+    margin-right: 35%;
 }
-
 /* ------</MAIN>------ */
 .display-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+    display: flex;
 }
 
 .contact-list {
-  width: 100%;
-  padding: 5px;
+    width: 100%;
+    padding: 5px;
 }
 
 .cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .button-align-card {
-  text-align: center;
+    text-align: center;
 }
 
 .cont-container {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+    justify-content: space-between;
 }
 
 .contactspt {
-  display: inline-block;
-  border: 2px solid black;
+    display: inline-block;
+    border: 2px solid black;
 }
 
 /*
 .logotyp {
-	padding-left: 0.13%;
+  padding-left: 0.13%;
 }
 
 ----<button-to-top>----*/
 .back-to-top {
-  position: fixed;
-  right: 20px;
-  bottom: 65px;
-  border-radius: 64px;
-  background-color: green;
+    position: fixed;
+    right: 20px;
+    bottom: 65px;
+    border-radius: 64px
+    background: green;
 }
 
-.back-to-top:hover, .back-to-top:focus {
-  -webkit-filter: brightness(1.5);
-          filter: brightness(1.5);
-  outline: none;
+.back-to-top:hover,
+.back-to-top:focus {
+    filter: brightness(1.5);
+    outline: none;
 }
-
 /*----</button-to-top>----*/
