@@ -1,3 +1,7 @@
+* {
+    font-family: roboto, sans-serif, arial, helvetica;
+}
+
 body {
     color: black;
     background-attachment: fixed;
@@ -7,28 +11,9 @@ body {
 }
 
 p {
-    font-size: 24px;
+    font-size: 1.1em;
     text-align: justify;
     text-indent: 1cm;
-}
-
-* {
-    font-family: roboto, sans-serif, arial, helvetica;
-}
-
-.menu-list {
-    list-style-type: none;
-}
-
-.menu-link {
-    font-size: 13pt;
-    text-decoration: none;
-    color: #283542;
-}
-
-.menu-link:hover {
-    text-decoration: underline;
-    filter: brightness(0.5);
 }
 
 hr {
@@ -43,20 +28,53 @@ h1 {
     font-size: 16pt;
 }
 
-h2 {
-    padding-left: 6px; 
+p h2 {
+    padding-left: 1cm;
+    font-size: 13pt;
+    font-weight: 700;
 }
 
 li {
     font-size: 9pt;
 }
 
-.menu-h2 {
-    font-size: 15pt;
+#menu {
+    margin: 3px;
+    border: 2px solid green;
+    padding: 0 5px;
+    background-color: #EEE;
+    height: 99vh;
+    min-width: 150px;
+    position: fixed;
+    flex-wrap: wrap;
+    float: left;
+}
+
+#menu h2 {
+    font-size: 1.3;
     color: #2B2B2BFF;
 }
 
-.logo {
+#menu li {
+    list-style-type: none;
+}
+
+#menu a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #283542;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+    filter: brightness(0.5);
+}
+
+#menu ul {
+    flex-wrap: wrap;
+}
+
+#logo {
     width: 18%;
 }
 
@@ -70,33 +88,14 @@ li {
     height: 25px;
     padding: 3px;
 }
-
-.contacts-diver {
-    width: ;
-    height: ;
-}
-
-.menu {
-    margin: 3px;
-    border: 2px solid green;
-    padding: 0 5px;
-    background-color: #EEE;
-    height: 99vh;
-    min-width: 150px;
-    position: fixed;
-    flex-wrap: wrap;
-}
-
-.menu-ul {
-    flex-wrap: wrap;
-}
-
 /* ------<MAIN>------ */
+
 .main-container {
     padding: 8px 0;
-    margin-left: 30%;
-    margin-right: 35%;
+    margin-left: 15%;
+    margin-right: 10%;
 }
+
 /* ------</MAIN>------ */
 .display-flex {
     display: flex;
@@ -144,4 +143,4 @@ li {
     filter: brightness(1.5);
     outline: none;
 }
-/*----</button-to-top>----*/
+/*----</button-to-top>----*

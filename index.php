@@ -17,7 +17,12 @@ if ($conn->connect_error) {
 }
 
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<?php
+defined('_JEXEC') or die;
+header("Content-Type: text/text/html; charset=utf-8");
+?>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8" />
@@ -29,34 +34,34 @@ if ($conn->connect_error) {
 <body>
 	<!-- <div class="logotyp">
 		<a href="index.html">
-			<img src="images/logo.png" alt="" class="logo" />
+			<img src="images/logo.png" alt="" id="logo" />
 			<br />
 			<span>Amazing <sub>plants</sub></span>
 		</a>
 	</div> -->
 	<div class="display-flex">
-		<div class="menu">
-			<h2 class="menu-h2">Растения:</h2>
-			<ul class="menu-ul">
+		<div id="menu">
+			<h2>Растения:</h2>
+			<ul>
 
 				<?php
 				$sql = "SELECT id, name from plants where visible=1 order by sort";
 				$result = $conn->query($sql);
 
 				while($row = $result->fetch_assoc()) {
-					echo "<li class=\"menu-list\"><a class=\"menu-link\" href=\"/?type=plants&id=".$row["id"]."\">".$row["name"]."</a></li>";
+					echo "<li><a href=\"/?type=plants&id=".$row["id"]."\">".$row["name"]."</a></li>";
 				} 
 				?>
 			</ul>
-			<h2 class="menu-h2">Деревья:</h2>
-			<ul class="menu-ul">
+			<h2>Деревья:</h2>
+			<ul>
 
 				<?php
 				$sql = "SELECT id, name from trees where visible=1 order by sort";
 				$result = $conn->query($sql);
 
 				while($row = $result->fetch_assoc()) {
-					echo "<li class=\"menu-list\"><a href=\"/?type=trees&id=".$row["id"]."\" class=\"menu-link\">".$row["name"]."</a></li>";
+					echo "<li><a href=\"/?type=trees&id=".$row["id"]."\">".$row["name"]."</a></li>";
 				} 
 				?>
 
