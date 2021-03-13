@@ -30,16 +30,10 @@ header("Content-Type: text/text/html; charset=utf-8");
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
 	<link rel="stylesheet" type="text/css" href="style/style.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
-	<!-- <div class="logotyp">
-		<a href="index.html">
-			<img src="images/logo.png" alt="" id="logo" />
-			<br />
-			<span>Amazing <sub>plants</sub></span>
-		</a>
-	</div> -->
+	<header></header>
 	<div class="display-flex">
 		<div id="menu">
 			<h2>Растения:</h2>
@@ -69,68 +63,57 @@ header("Content-Type: text/text/html; charset=utf-8");
 			</ul>
 		</div>
 	</div>
-		<!--<div class="cont-container">
-				<div class="contact-list">
-					<div class="contactspt"><div class="img-align"><a href="https://github.com/chirartem/amazing-plants"><img src="images/github.svg" alt="" class="contacts-img" /></a></div></div>
-					<div class="contactspt"><div class="img-align"><a href="mailto:chirartem@gmail.com"><img src="images/gmail.svg" alt="" class="contacts-img" /></a></div></div>
-					<div class="contactspt"><div class="img-align"><a href=""><img src="images/instagram.svg" alt="" class="contacts-img" /></a></div></div>
-					<div class="contactspt"><div class="img-align"><a href=""><img src="images/telegram.svg" alt="" class="contacts-img" /></a></div></div>
-			</div>
-			<div class="contacts-diver">1</div>
-			<div class="contacts-diver">2</div>
-			<div class="contacts-diver">3</div>
-			<div class="contacts-diver">4</div>
-		</div>-->
-		<div class="main-container">
-			<?php
-			$link_type = $_GET["type"];
-			$link_id = $_GET["id"];
-			if (($link_type) && ($link_id)) {
-				$sql = "SELECT name, content from $link_type where visible=1 and id=$link_id";
-				$result = $conn->query($sql);
+	<div class="main-container">
+		<?php
+		$link_type = $_GET["type"];
+		$link_id = $_GET["id"];
+		if (($link_type) && ($link_id)) {
+			$sql = "SELECT name, content from $link_type where visible=1 and id=$link_id";
+			$result = $conn->query($sql);
 
-				$row = $result->fetch_assoc();
-				echo $row["name"];
-				echo "<br />";
-				echo $row["content"];
+			$row = $result->fetch_assoc();
+			echo $row["name"];
+			echo "<br />";
+			echo $row["content"];
 			//echo "<img src='/images/{$link_type}_{$link_id}.jpg'>"
-			}
+		}
+		?>
+		<?php
+		if (isset($link_id) == false) {
 			?>
-			<?php
-			if (isset($link_id) == false) {
-				?>
-				<div class="cards">
-					<div class="flex-wrap card" style="width: 18rem;">
-						<img src="images/card-avatars/icon_1.png" class="card-img-top" alt="Самые большие">
-						<div class="card-body">
-							<div class="button-align-card"><a href="#" class="btn btn-primary">Самые большие</a></div>
-						</div>
-					</div>
-					<div class="flex-wrap card" style="width: 18rem;">
-						<img src="images/card-avatars/icon_3.png" class="card-img-top" alt="Самые маленькие">
-						<div class="card-body">
-							<div class="button-align-card"><a href="#" class="btn btn-primary">Самые маленькие</a></div>
-						</div>
-					</div>
-					<div class="flex-wrap card" style="width: 18rem;">
-						<img src="images/card-avatars/icon_3.png" class="card-img-top" alt="Самые маленькие">
-						<div class="card-body">
-							<div class="button-align-card"><a href="#" class="btn btn-primary">Самые маленькие</a></div>
-						</div>
-					</div>
-					<div class="flex-wrap card" style="width: 18rem;">
-						<img src="images/card-avatars/icon_3.png" class="card-img-top" alt="Самые маленькие">
-						<div class="card-body">
-							<div class="button-align-card"><a href="#" class="btn btn-primary">Самые маленькие</a></div>
-						</div>
+			<div class="cards">
+				<div class="flex-wrap card" style="width: 18rem;">
+					<img src="images/card-avatars/icon_1.png" class="card-img-top" alt="Самые большие">
+					<div class="card-body">
+						<div class="button-align-card"><a href="#" class="btn btn-primary">Самые большие</a></div>
 					</div>
 				</div>
-				<?php 
-			} 
-			?>
-		</div>
-		<!----------------------------------------------------------------------------------------------------------------------------------------->
-		<a href="#" class="back-to-top"></a>
-		<script src="script/script.js"></script>
-	</body>
-	</html>
+				<div class="flex-wrap card" style="width: 18rem;">
+					<img src="images/card-avatars/icon_3.png" class="card-img-top" alt="Самые маленькие">
+					<div class="card-body">
+						<div class="button-align-card"><a href="#" class="btn btn-primary">Самые маленькие</a></div>
+					</div>
+				</div>
+				<div class="flex-wrap card" style="width: 18rem;">
+					<img src="images/card-avatars/icon_3.png" class="card-img-top" alt="Самые маленькие">
+					<div class="card-body">
+						<div class="button-align-card"><a href="#" class="btn btn-primary">Самые маленькие</a></div>
+					</div>
+				</div>
+				<div class="flex-wrap card" style="width: 18rem;">
+					<img src="images/card-avatars/icon_3.png" class="card-img-top" alt="Самые маленькие">
+					<div class="card-body">
+						<div class="button-align-card"><a href="#" class="btn btn-primary">Самые маленькие</a></div>
+					</div>
+				</div>
+			</div>
+			<?php 
+		} 
+		?>
+	</div>
+	<footer></footer>
+	<!----------------------------------------------------------------------------------------------------------------------------------------->
+	<a href="#" class="back-to-top"></a>
+	<script src="script/script.js"></script>
+</body>
+</html>

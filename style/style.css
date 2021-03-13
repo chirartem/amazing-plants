@@ -1,13 +1,9 @@
 * {
-    font-family: roboto, sans-serif, arial, helvetica;
+    font-family: arial, sans-serif, roboto, helvetica;
 }
 
 body {
-    color: black;
-    background-attachment: fixed;
-    background-repeat: repeat-y;
-    background-color: #F8F9FB;
-    background-size: 100%;
+    background-color: #F5EFDD;
 }
 
 p {
@@ -25,12 +21,11 @@ hr {
 
 h1 {
     text-align: center;
-    font-size: 16pt;
+    font-size: 21pt;
 }
 
-p h2 {
+h2 {
     padding-left: 1cm;
-    font-size: 13pt;
     font-weight: 700;
 }
 
@@ -38,11 +33,24 @@ li {
     font-size: 9pt;
 }
 
+header h1 {
+    font-size: 30pt;
+}
+
+header {
+    min-height: 80px;
+    background-color: #cfc9b9;
+}
+
+footer {
+    clear: left;
+    background-color: #2C2B28;
+}
+
 #menu {
     margin: 3px;
     border: 2px solid green;
     padding: 0 5px;
-    background-color: #EEE;
     height: 99vh;
     min-width: 150px;
     position: fixed;
@@ -52,7 +60,7 @@ li {
 
 #menu h2 {
     font-size: 1.3;
-    color: #2B2B2BFF;
+    color: #2B2B2B;
 }
 
 #menu li {
