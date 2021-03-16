@@ -30,7 +30,7 @@ header("Content-Type: text/text/html; charset=utf-8");
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
 	<link rel="stylesheet" type="text/css" href="style/style.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
 	<header></header>
@@ -63,7 +63,7 @@ header("Content-Type: text/text/html; charset=utf-8");
 			</ul>
 		</div>
 	</div>
-	<div class="main-container">
+	<div id="content">
 		<?php
 		$link_type = $_GET["type"];
 		$link_id = $_GET["id"];
@@ -112,8 +112,7 @@ header("Content-Type: text/text/html; charset=utf-8");
 		?>
 	</div>
 	<footer></footer>
-	<!----------------------------------------------------------------------------------------------------------------------------------------->
-	<a href="#" class="back-to-top"></a>
+	<a href="#" id="back-to-top"></a>
 	<script src="script/script.js"></script>
 </body>
 </html>
