@@ -13,7 +13,7 @@ p {
 }
 
 hr {
-    border: none;
+    /*border: none;*/
     color: #404040;
     height: 1px;
 }
@@ -64,7 +64,7 @@ footer {
 #menu h2 {
     color: #2B2B2B;
     font-weight: normal;
-    font-size: calc(1.325rem + .9vw);
+    font-size: 12pt/*calc(1.325rem + .9vw)*/;
 }
 
 #menu li {
@@ -74,12 +74,13 @@ footer {
 #menu a {
     font-size: 1.1em;
     text-decoration: none;
-    color: #283542;
+    color: #fff;
+    background-color: #283542;
+    border-radius: 3px;
 }
 
 #menu a:hover {
-    text-decoration: underline;
-    filter: brightness(0.5);
+    padding-left: 3px;
 }
 
 #menu ul {

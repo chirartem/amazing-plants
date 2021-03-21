@@ -86,7 +86,7 @@ if ($conn->connect_error) {
 				<?php
 				if ($link_id == 0) {
 					?>
-					<div class="cards">
+					<!-- <div class="cards">
 						<div class="flex-wrap card" style="width: 18rem;">
 							<img src="images/card-avatars/icon_1.png" class="card-img-top" alt="Самые большие">
 							<div class="card-body">
@@ -111,7 +111,7 @@ if ($conn->connect_error) {
 								<div class="button-align-card"><a href="#" class="btn btn-primary">Самые маленькие</a></div>
 							</div>
 						</div>
-					</div>
+					</div> -->
 					<?php 
 				} 
 				?>
