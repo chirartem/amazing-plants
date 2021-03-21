@@ -58,14 +58,14 @@ if ($conn->connect_error) {
 			</ul>
 		</div>
 	</div>
-	<div id="content">
+	<main>
 		<?php
-                if (isset($_GET['type']))
+		if (isset($_GET['type']))
 			$link_type = $_GET["type"];
 		else
 			$link_type = 0;
 
-                if (isset($_GET['id']))
+		if (isset($_GET['id']))
 			$link_id = $_GET["id"];
 		else
 			$link_id = 0;
@@ -113,7 +113,7 @@ if ($conn->connect_error) {
 			<?php 
 		} 
 		?>
-	</div>
+	</main>
 	<footer></footer>
 	<a href="#" id="back-to-top"></a>
 	<script src="script/script.js"></script>
