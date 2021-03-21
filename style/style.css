@@ -52,10 +52,9 @@ footer {
 
 #menu {
     display: table-cell;
-    margin: 3px;
+    margin: 4px;
     border: 2px solid green;
     padding: 6px;
-    height: 99vh;
     min-width: 150px;
     position: fixed;
     border-radius: 6px;
@@ -88,9 +87,8 @@ footer {
 /* ------<MAIN>------ */
 main {
     display: table-cell;
-    padding: 8px 0;
-    margin-left: 15%;
-    margin-right: 10%;
+    padding: 8px;
+    margin: 0 620px 0 174px;
 }
 /* ------</MAIN>------ */
 #tableContainer {
