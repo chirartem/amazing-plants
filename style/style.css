@@ -67,6 +67,7 @@ footer {
     color: #2B2B2B;
     font-weight: normal;
     font-size: 12pt/*calc(1.325rem + .9vw)*/;
+    text-align: center;
 }
 
 #menu li {
