@@ -37,27 +37,19 @@ header h1 {
 }
 
 header {
-    height: 40px;
+    min-height: 80px;
     background-color: #cfc9b9;
+    flex-wrap: wrap;
     align-items: center;
     display: flex;
     justify-content: center;
-    padding: 2% 0;
 }
 
 footer {
     clear: left;
     background-color: #2C2B28;
-    min-height: 80px;
 }
-/* --------------<MAIN>-------------- */
-main {
-    padding: 8px 0;
-    margin-left: 15%;
-    margin-right: 10%;
-    min-height: 50vh;
-}
-/* --------------</MAIN>-------------- */
+
 #menu {
     margin: 3px;
     border: 2px solid green;
@@ -107,6 +99,18 @@ main {
     width: 25px;
     height: 25px;
     padding: 3px;
+}
+/* ------<MAIN>------ */
+
+#content {
+    padding: 8px 0;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+/* ------</MAIN>------ */
+.display-flex {
+    display: flex;
 }
 
 .contact-list {
