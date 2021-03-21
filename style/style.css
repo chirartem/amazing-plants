@@ -55,11 +55,12 @@ footer {
     display: table-cell;
     margin: 4px;
     border: 2px solid green;
-    padding: 6px;
+    padding: 8px;
     min-width: 150px;
     position: fixed;
     border-radius: 6px;
     vertical-align: top;
+    line-height: 0.8;
 }
 
 #menu h2 {

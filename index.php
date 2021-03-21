@@ -22,12 +22,13 @@ if ($conn->connect_error) {
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<link rel="stylesheet" href="style/nullstellen.css">
-	<meta charset="UTF-8" />
 	<title>Интересные растения</title>
-	<link rel="stylesheet" type="text/css" href="style/style.css" />
+	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
+	<link rel="stylesheet" href="style/nullstellen.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
 </head>
 <body>
 	<header><h1></h1></header>
