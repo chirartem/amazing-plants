@@ -51,14 +51,14 @@ footer {
 }
 
 #menu {
+    display: table-cell;
     margin: 3px;
     border: 2px solid green;
-    padding: 0 5px;
+    padding: 6px;
     height: 99vh;
     min-width: 150px;
     position: fixed;
-    flex-wrap: wrap;
-    float: left;
+    border-radius: 6px;
 }
 
 #menu h2 {
@@ -85,6 +85,21 @@ footer {
 #menu ul {
     flex-wrap: wrap;
 }
+/* ------<MAIN>------ */
+main {
+    display: table-cell;
+    padding: 8px 0;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+/* ------</MAIN>------ */
+#tableContainer {
+    display: table;
+}
+
+#tableRow {
+    display: table-row;
+}
 
 #logo {
     width: 18%;
@@ -99,18 +114,6 @@ footer {
     width: 25px;
     height: 25px;
     padding: 3px;
-}
-/* ------<MAIN>------ */
-
-#content {
-    padding: 8px 0;
-    margin-left: 15%;
-    margin-right: 10%;
-}
-
-/* ------</MAIN>------ */
-.display-flex {
-    display: flex;
 }
 
 .contact-list {
@@ -136,12 +139,7 @@ footer {
     border: 2px solid black;
 }
 
-/*
-.logotyp {
-  padding-left: 0.13%;
-}
-
-----<button-to-top>----*/
+/*----<button-to-top>----*/
 #back-to-top {
     position: fixed;
     right: 20px;
@@ -150,8 +148,7 @@ footer {
     background: green;
 }
 
-.back-to-top:hover,
-.back-to-top:focus {
+.back-to-top:hover, .back-to-top:focus {
     filter: brightness(1.5);
     outline: none;
 }
