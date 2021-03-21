@@ -60,7 +60,7 @@ if ($conn->connect_error) {
 
 				</ul>
 			</div>
-			<main>
+			<div id="main">
 				<?php
 				if (isset($_GET['type']))
 					$link_type = $_GET["type"];
@@ -115,7 +115,7 @@ if ($conn->connect_error) {
 					<?php 
 				} 
 				?>
-			</main>
+			</div>
 		</div>
 	</div>
 	<footer></footer>

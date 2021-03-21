@@ -85,7 +85,7 @@ footer {
     flex-wrap: wrap;
 }
 /* ------<MAIN>------ */
-main {
+#main {
     display: table-cell;
     padding: 8px;
     margin: 0 620px 0 174px;
