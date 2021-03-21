@@ -15,13 +15,8 @@ $conn->set_charset("utf8");        // Object-oriented approach
 if ($conn->connect_error) {
 	die("Connection failed now: " . $conn->connect_error);
 }
-
 ?>
 
-<?php
-defined('_JEXEC') or die;
-header("Content-Type: text/text/html; charset=utf-8");
-?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -65,8 +60,16 @@ header("Content-Type: text/text/html; charset=utf-8");
 	</div>
 	<div id="content">
 		<?php
-		$link_type = $_GET["type"];
-		$link_id = $_GET["id"];
+                if (isset($_GET['type']))
+			$link_type = $_GET["type"];
+		else
+			$link_type = 0;
+
+                if (isset($_GET['id']))
+			$link_id = $_GET["id"];
+		else
+			$link_id = 0;
+
 		if (($link_type) && ($link_id)) {
 			$sql = "SELECT name, content from $link_type where visible=1 and id=$link_id";
 			$result = $conn->query($sql);
@@ -79,7 +82,7 @@ header("Content-Type: text/text/html; charset=utf-8");
 		}
 		?>
 		<?php
-		if (isset($link_id) == false) {
+		if ($link_id == 0) {
 			?>
 			<div class="cards">
 				<div class="flex-wrap card" style="width: 18rem;">
