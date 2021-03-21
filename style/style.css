@@ -3,15 +3,7 @@
 }
 
 body {
-<<<<<<< HEAD
     background-color: #F5EFDD;
-=======
-	color: black;
-	background-attachment: fixed;
-	background-repeat: repeat-y;
-	background-color: #F8F9FBFF;
-	background-size: 100%;
->>>>>>> origin/white-background
 }
 
 p {
@@ -45,19 +37,27 @@ header h1 {
 }
 
 header {
-    min-height: 80px;
+    height: 40px;
     background-color: #cfc9b9;
-    flex-wrap: wrap;
     align-items: center;
     display: flex;
     justify-content: center;
+    padding: 2% 0;
 }
 
 footer {
     clear: left;
     background-color: #2C2B28;
+    min-height: 80px;
 }
-
+/* --------------<MAIN>-------------- */
+main {
+    padding: 8px 0;
+    margin-left: 15%;
+    margin-right: 10%;
+    min-height: 50vh;
+}
+/* --------------</MAIN>-------------- */
 #menu {
     margin: 3px;
     border: 2px solid green;
@@ -107,44 +107,6 @@ footer {
     width: 25px;
     height: 25px;
     padding: 3px;
-}
-/* ------<MAIN>------ */
-
-<<<<<<< HEAD
-#content {
-    padding: 8px 0;
-    margin-left: 15%;
-    margin-right: 10%;
-}
-
-/* ------</MAIN>------ */
-.display-flex {
-    display: flex;
-=======
-.menu {
-	margin-left: 1px;
-	margin-top: 3px;
-	border: 2px solid green;
-	background-color: #4b4a45;
-	height: 630px;
-	max-width: 150px;
-	position: fixed;
-	flex-wrap: wrap;
-}
-
-.menu-ul {
-	flex-wrap: wrap;
-}
-
-.white_background_div {
-	margin: 5px 0;
-	background: #F8F9FBFF;
-	width: 100%;
-	height: 100%;
-	border-radius: 6px;
-	margin-left: 160px;
-	margin-right: 9px;
->>>>>>> origin/white-background
 }
 
 .contact-list {
