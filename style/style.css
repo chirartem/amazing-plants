@@ -29,10 +29,6 @@ h2 {
     font-weight: 500;
 }
 
-li {
-    font-size: 9pt;
-}
-
 header h1 {
     font-size: 30pt;
 }
@@ -56,11 +52,12 @@ footer {
     margin: 4px;
     border: 2px solid green;
     padding: 8px;
-    width: 181px;
+    width: 200px;
+    max-height: 650px;
     position: fixed;
     border-radius: 6px;
     vertical-align: top;
-    line-height: 0.8;
+    line-height: 1.6;
 }
 
 #menu h2 {
@@ -73,6 +70,7 @@ footer {
 
 #menu li {
     list-style-type: none;
+    font-size: 9.4pt;
 }
 
 #menu a {
@@ -81,10 +79,11 @@ footer {
     color: #fff;
     background-color: #283542;
     border-radius: 3px;
+    padding: 1px;
 }
 
 #menu a:hover {
-    padding-left: 3px;
+    margin-left: 4px;
 }
 
 #menu ul {
