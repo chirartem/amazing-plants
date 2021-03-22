@@ -1,3 +1,9 @@
+@media (max-width: 1030) {
+    #menu {
+        display: none;
+    }
+}
+
 * {
     font-family: arial, sans-serif, roboto, helvetica;
 }
@@ -24,8 +30,8 @@ h1 {
 }
 
 h2 {
-    font-size: 14pt;
-    padding-left: 1cm;
+    font-size: 17pt;
+    text-align: center;
     font-weight: 500;
     line-height: 3;
 }
@@ -49,7 +55,7 @@ footer {
 }
 
 #menu {
-    margin: 4px;
+    margin: 8px;
     border: 2px solid green;
     padding: 8px;
     width: 200px;
@@ -58,6 +64,7 @@ footer {
     border-radius: 6px;
     line-height: 1.6;
     float: left;
+    background-color: #eef5dd;
 }
 
 #menu h2 {
