@@ -1,5 +1,3 @@
-
-
 <?php
 header('Content-Type: text/html; charset=utf-8');
 
@@ -18,7 +16,6 @@ if ($conn->connect_error) {
 	die("Connection failed now: " . $conn->connect_error);
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -35,7 +32,6 @@ if ($conn->connect_error) {
 	<div id="menu">
 		<h2>Растения:</h2>
 		<ul>
-
 			<?php
 			$sql = "SELECT id, name from plants where visible=1 order by sort";
 			$result = $conn->query($sql);
@@ -47,7 +43,6 @@ if ($conn->connect_error) {
 		</ul>
 		<h2>Деревья:</h2>
 		<ul>
-
 			<?php
 			$sql = "SELECT id, name from trees where visible=1 order by sort";
 			$result = $conn->query($sql);
