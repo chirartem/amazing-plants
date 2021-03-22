@@ -48,7 +48,6 @@ footer {
 }
 
 #menu {
-    display: table-cell;
     margin: 4px;
     border: 2px solid green;
     padding: 8px;
@@ -56,8 +55,8 @@ footer {
     max-height: 650px;
     position: fixed;
     border-radius: 6px;
-    vertical-align: top;
     line-height: 1.6;
+    float: left;
 }
 
 #menu h2 {
@@ -86,24 +85,13 @@ footer {
     margin-left: 4px;
 }
 
-#menu ul {
-    flex-wrap: wrap;
-}
-/* ------<MAIN>------ */
+/* ------------------<MAIN>------------------ */
 #main {
-    display: table-cell;
-    vertical-align: top;
     padding: 8px;
-    margin: 0 620px 0 174px;
+    width: 580;
+    margin-left: 228px;
 }
-/* ------</MAIN>------ */
-#tableContainer {
-    display: table;
-}
-
-#tableRow {
-    display: table-row;
-}
+/* ------------------</MAIN>------------------ */
 
 #logo {
     width: 18%;
