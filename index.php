@@ -51,7 +51,6 @@ if ($conn->connect_error) {
 				echo "<li><a href=\"/?type=trees&id=".$row["id"]."\">".$row["name"]."</a></li>";
 			} 
 			?>
-
 		</ul>
 	</div>
 	<div id="main">

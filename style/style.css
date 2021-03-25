@@ -1,4 +1,4 @@
-@media (max-width: 1030) {
+@media (max-width: 1030px) {
     #menu {
         display: none;
     }
@@ -92,6 +92,7 @@ footer {
 
 #menu a:hover {
     margin-left: 4px;
+    transition: .2s ease-out;
 }
 
 /* ------------------<MAIN>------------------ */
