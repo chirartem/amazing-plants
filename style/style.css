@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #F5EFDD;
+    background-color: #F7F7F7;
 }
 
 p {
@@ -88,17 +88,17 @@ footer {
     background-color: #283542;
     border-radius: 3px;
     padding: 1px;
+    transition: .2s ease-out;
 }
 
 #menu a:hover {
     margin-left: 4px;
-    transition: .2s ease-out;
 }
 
 /* ------------------<MAIN>------------------ */
 #main {
     padding: 8px;
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto;
 }
 /* ------------------</MAIN>------------------ */
