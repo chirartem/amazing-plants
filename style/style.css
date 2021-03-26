@@ -1,9 +1,9 @@
-/*@media (max-width: 1030px) {
+@media (max-width: 1030px) {
     #menu {
         display: none;
     }
 }
-*/
+
 * {
     font-family: arial, sans-serif, roboto, helvetica;
 }
