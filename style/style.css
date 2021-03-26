@@ -42,8 +42,8 @@ header h1 {
 
 header {
     min-height: 80px;
-    background-color: #f3e4df;
-    flex-wrap: wrap;
+    background-color: #75d3a5;/*#028B76*/
+    flex-wrap: wrap;/*#01846E*/
     align-items: center;
     display: flex;
     justify-content: center;
@@ -56,7 +56,7 @@ footer {
 
 #menu {
     margin: 8px;
-    border: 2px solid green;
+    border: 2px solid #88A550;
     padding: 8px;
     width: 200px;
     max-height: 650px;
@@ -84,8 +84,7 @@ footer {
 #menu a {
     font-size: 1.1em;
     text-decoration: none;
-    color: #fff;
-    background-color: #283542;
+    background-color: #72c5c9;
     border-radius: 3px;
     padding: 1px;
     transition: .2s ease-out;
