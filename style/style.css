@@ -24,6 +24,7 @@ p {
     font-size: 13pt;
     text-align: justify;
     text-indent: 1cm;
+    line-height: 1;
 }
 
 hr {
@@ -95,11 +96,11 @@ footer {
     border-radius: 3px;
     padding: 1px;
     transition: .2s ease-out;
-    color: #283542;
+    color: #000;
 }
 
 #menu a:visited {
-    color: #283542;
+    color: #000;
     background-color: #4e658f;
 }
 

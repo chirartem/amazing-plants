@@ -19,13 +19,19 @@ if ($conn->connect_error) {
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<title>Интересные растения</title>
+	<!-- Метаданные -->
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Самые интересные растения! Список необычных растений &mdash; больших и маленьких." />
+	<!-- Заголовок -->
+	<title>Интересные растения</title>
+	<!-- Стили и фавиконка -->
+	<link rel="stylesheet" href="style/nullstellen.css">
+	<link rel="stylesheet" href="style/style.css" />
+	<link href="images/contacts-images/favicon_plants.png" rel="icon" type="image/x-icon">
+	<!-- JavaScript -->
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 	<script src="script/script.js"></script>
-	<link rel="stylesheet" href="style/nullstellen.css">
-	<link rel="stylesheet" type="text/css" href="style/style.css" />
 </head>
 <body>
 	<header><h1></h1></header>
